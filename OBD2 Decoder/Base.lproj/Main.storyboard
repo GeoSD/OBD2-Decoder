@@ -18,11 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Данные по расшифровке кодов OBD2 взяты с сайта turboracing.ru." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oas-Nf-RPZ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Данные по расшифровке кодов OBD2 взяты с сайта turboracing.ru." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oas-Nf-RPZ">
                                 <rect key="frame" x="16" y="80" width="343" height="571"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -39,15 +40,15 @@
             </objects>
             <point key="canvasLocation" x="1938" y="845"/>
         </scene>
-        <!--View Controller-->
+        <!--AboutOBD View Controller-->
         <scene sceneID="qYk-m5-U2V">
             <objects>
-                <viewController id="ax1-lh-2eG" sceneMemberID="viewController">
+                <viewController id="ax1-lh-2eG" customClass="AboutOBDViewController" customModule="OBD2_Decoder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NYS-Qr-3wq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sqq-aX-VKC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sqq-aX-VKC">
                                 <rect key="frame" x="16" y="80" width="343" height="571"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">OBD-II (On-board diagnostics) — бортовая диагностика, стандарт разработанный в середине 90-х, предоставляет полный контроль над двигателем. Позволяет проводить мониторинг частей кузова и дополнительных устройств, а также диагностирует сеть управления автомобилем. В данном стандарте производители применяют различные протоколы соединения с автомобилем.
@@ -81,6 +82,7 @@ U25xx — Межблочная шина обмена данных (CAN-bus) (CAN
 Источник: https://ru.wikipedia.org/wiki/Компьютерная_диагностика_автомобиля#OBD-II</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,6 +94,9 @@ U25xx — Межблочная шина обмена данных (CAN-bus) (CAN
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iuh-FQ-D3o"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="sqq-aX-VKC" id="zUW-Qg-tNs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8pa-L5-u9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

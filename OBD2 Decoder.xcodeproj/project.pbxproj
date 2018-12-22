@@ -16,6 +16,7 @@
 		663F3B3321CE13B100F76D33 /* OBDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3B3221CE13B100F76D33 /* OBDError.swift */; };
 		663F3B3521CE13D000F76D33 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3B3421CE13D000F76D33 /* DataManager.swift */; };
 		663F3B3721CE13F500F76D33 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 663F3B3621CE13F500F76D33 /* data.json */; };
+		663F3B3921CE1AFD00F76D33 /* AboutOBDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3B3821CE1AFD00F76D33 /* AboutOBDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		663F3B3221CE13B100F76D33 /* OBDError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBDError.swift; sourceTree = "<group>"; };
 		663F3B3421CE13D000F76D33 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		663F3B3621CE13F500F76D33 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		663F3B3821CE1AFD00F76D33 /* AboutOBDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutOBDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				663F3B1B21CE116100F76D33 /* AppDelegate.swift */,
 				663F3B2D21CE135B00F76D33 /* SearchViewController.swift */,
 				663F3B2F21CE138800F76D33 /* ResultViewController.swift */,
+				663F3B3821CE1AFD00F76D33 /* AboutOBDViewController.swift */,
 				663F3B3221CE13B100F76D33 /* OBDError.swift */,
 				663F3B3421CE13D000F76D33 /* DataManager.swift */,
 				663F3B3621CE13F500F76D33 /* data.json */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663F3B3921CE1AFD00F76D33 /* AboutOBDViewController.swift in Sources */,
 				663F3B3321CE13B100F76D33 /* OBDError.swift in Sources */,
 				663F3B3521CE13D000F76D33 /* DataManager.swift in Sources */,
 				663F3B2E21CE135B00F76D33 /* SearchViewController.swift in Sources */,
