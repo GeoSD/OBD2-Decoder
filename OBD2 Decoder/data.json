@@ -1,0 +1,5557 @@
+[
+  {
+    "code": "P0100",
+    "eng_desc": "MAF or VAF CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность цепи датчика расхода воздуха"
+  },
+  {
+    "code": "P0101",
+    "eng_desc": "MAF or VAF CIRCUIT RANGE/PERF PROBLEM",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0102",
+    "eng_desc": "MAF or VAF CIRCUIT LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала"
+  },
+  {
+    "code": "P0103",
+    "eng_desc": "MAF or VAF CIRCUIT HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала"
+  },
+  {
+    "code": "P0105",
+    "eng_desc": "MAP/BARO CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика давления воздуха"
+  },
+  {
+    "code": "P0106",
+    "eng_desc": "MAP/BARO CIRCUIT RANGE/PERF PROBLEM",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0107",
+    "eng_desc": "MAP/BARO CIRCUIT LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала"
+  },
+  {
+    "code": "P0108",
+    "eng_desc": "MAP/BARO CIRCUIT HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала"
+  },
+  {
+    "code": "P0110",
+    "eng_desc": "IAT CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика температуры всасываемого воздуха"
+  },
+  {
+    "code": "P0111",
+    "eng_desc": "IAT RANGE/PERF PROBLEM",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0112",
+    "eng_desc": "IAT CIRCUIT LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала"
+  },
+  {
+    "code": "P0113",
+    "eng_desc": "IAT CIRCUIT HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала"
+  },
+  {
+    "code": "P0115",
+    "eng_desc": "ECT CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика температуры охлаждающей жидкости"
+  },
+  {
+    "code": "P0116",
+    "eng_desc": "ECT RANGE/PERF PROBLEM",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0117",
+    "eng_desc": "ECT CIRCUIT LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала"
+  },
+  {
+    "code": "P0118",
+    "eng_desc": "ECT CIRCUIT HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала"
+  },
+  {
+    "code": "P0120",
+    "eng_desc": "TPS SENSOR A CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика положения дроссельной заслонки"
+  },
+  {
+    "code": "P0121",
+    "eng_desc": "TPS SENSOR A RANGE/PERF PROBLEM",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0122",
+    "eng_desc": "TPS SENS A CIRCUIT LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала"
+  },
+  {
+    "code": "P0123",
+    "eng_desc": "TPS SENS A CIRCUIT HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала"
+  },
+  {
+    "code": "P0125",
+    "eng_desc": "LOW ECT FOR CLOSED LOOP FUEL CONTROL",
+    "rus_desc": "Низкая температуры охлаждающей жид. для упр.по замкн.контуру"
+  },
+  {
+    "code": "P0130",
+    "eng_desc": "O2 SENSOR B1 S1 MALFUNCTION",
+    "rus_desc": "Датчик О2 В1 S1 неисправен (банк 1)"
+  },
+  {
+    "code": "P0131",
+    "eng_desc": "O2 SENSOR B1 S1 LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S1 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0132",
+    "eng_desc": "O2 SENSOR B1 S1 HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S1 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0133",
+    "eng_desc": "O2 SENSOR B1 S1 SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В1 S1 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0134",
+    "eng_desc": "O2 SENSOR B1 S1 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В1 S1 пассивна"
+  },
+  {
+    "code": "P0135",
+    "eng_desc": "O2 SENSOR B1 S1 HEATER MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В1 S1 неисправен"
+  },
+  {
+    "code": "P0136",
+    "eng_desc": "O2 SENSOR B1 S2 MALFUNCTION",
+    "rus_desc": "Датчик О2 В1 S2 неисправен"
+  },
+  {
+    "code": "P0137",
+    "eng_desc": "O2 SENSOR B1 S2 LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S2 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0138",
+    "eng_desc": "O2 SENSOR B1 S2 HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S2 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0139",
+    "eng_desc": "O2 SENSOR B1 S2 SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В1 S2 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0140",
+    "eng_desc": "O2 SENSOR B1 S2 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В1 S2 пассивна"
+  },
+  {
+    "code": "P0141",
+    "eng_desc": "O2 SENSOR B1 S2 HEATER MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В1 S2 неисправен"
+  },
+  {
+    "code": "P0142",
+    "eng_desc": "O2 SENSOR B1 S3 MALFUNCTION",
+    "rus_desc": "Датчик О2 В1 S3 неисправен"
+  },
+  {
+    "code": "P0143",
+    "eng_desc": "O2 SENSOR B1 S3 LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S3 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0144",
+    "eng_desc": "O2 SENSOR B1 S3 HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В1 S3 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0145",
+    "eng_desc": "O2 SENSOR B1 S3 SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В1 S3 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0146",
+    "eng_desc": "O2 SENSOR B1 S3 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В1 S3 пассивна"
+  },
+  {
+    "code": "P0147",
+    "eng_desc": "O2 SENSOR B1 S3 HEATER MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В1 S3 неисправен"
+  },
+  {
+    "code": "P0150",
+    "eng_desc": "O2 SENSOR B2 S1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Датчик О2 В2 S1 неисправен (банк 2)"
+  },
+  {
+    "code": "P0151",
+    "eng_desc": "O2 SENSOR B2 S1 CKT LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S1 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0152",
+    "eng_desc": "O2 SENSOR B2 S1 CKT HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S1 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0153",
+    "eng_desc": "O2 SENSOR B2 S1 CKT SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В2 S1 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0154",
+    "eng_desc": "O2 SENSOR B2 S1 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В2 S1 пассивна"
+  },
+  {
+    "code": "P0155",
+    "eng_desc": "O2 SENSOR B2 S1 HTR CKT MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В2 S1 неисправен"
+  },
+  {
+    "code": "P0156",
+    "eng_desc": "O2 SENSOR B2 S2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Датчик О2 В2 S2 неисправен"
+  },
+  {
+    "code": "P0157",
+    "eng_desc": "O2 SENSOR B2 S2 CKT LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S2 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0158",
+    "eng_desc": "O2 SENSOR B2 S2 CKT HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S2 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0159",
+    "eng_desc": "O2 SENSOR B2 S2 CKT SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В2 S2 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0160",
+    "eng_desc": "O2 SENSOR B2 S2 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В2 S2 пассивна"
+  },
+  {
+    "code": "P0161",
+    "eng_desc": "O2 SENSOR B2 S2 HTR CKT MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В2 S2 неисправен"
+  },
+  {
+    "code": "P0162",
+    "eng_desc": "O2 SENSOR B2 S3 CIRCUIT MALFUNCTION",
+    "rus_desc": "Датчик О2 В2 S3 неисправен"
+  },
+  {
+    "code": "P0163",
+    "eng_desc": "O2 SENSOR B2 S3 CKT LOW VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S3 имеет низкий уровень сигнала"
+  },
+  {
+    "code": "P0164",
+    "eng_desc": "O2 SENSOR B2 S3 CKT HIGH VOLTAGE",
+    "rus_desc": "Датчик О2 В2 S3 имеет высокий уровень сигнала"
+  },
+  {
+    "code": "P0165",
+    "eng_desc": "O2 SENSOR B2 S3 CKT SLOW RESPONSE",
+    "rus_desc": "Датчик О2 В2 S3 имеет медленный отклик на обогащение/обеднение"
+  },
+  {
+    "code": "P0166",
+    "eng_desc": "O2 SENSOR B2 S3 CIRCUIT INACTIVE",
+    "rus_desc": "Цепь датчика О2 В2 S3 пассивна"
+  },
+  {
+    "code": "P0167",
+    "eng_desc": "O2 SENSOR B2 S3 HTR CKT MALFUNCTION",
+    "rus_desc": "Нагреватель датчика О2 В2 S3 неисправен"
+  },
+  {
+    "code": "P0170",
+    "eng_desc": "BANK 1 FUEL TRIM MALFUNCTION",
+    "rus_desc": "Утечка топлива из топливной системы блока №1"
+  },
+  {
+    "code": "P0171",
+    "eng_desc": "BANK 1 SYSTEM TOO LEAN",
+    "rus_desc": "Блок цилиндров №1 беднит (возможно подсос воздуха)"
+  },
+  {
+    "code": "P0172",
+    "eng_desc": "BANK 1 SYSTEM TOO RICH",
+    "rus_desc": "Блок цилиндров №1 богатит (возможно неполное закрытие форсунки)"
+  },
+  {
+    "code": "P0173",
+    "eng_desc": "BANK 2 FUEL TRIM MALFUNCTION",
+    "rus_desc": "Утечка топлива из топливной системы блока №2"
+  },
+  {
+    "code": "P0174",
+    "eng_desc": "BANK 2 SYSTEM TOO LEAN",
+    "rus_desc": "Блок цилиндров №2 беднит (возможно подсос воздуха)"
+  },
+  {
+    "code": "P0175",
+    "eng_desc": "BANK 2 SYSTEM TOO RICH",
+    "rus_desc": "Блок цилиндров №2 богатит (возможно неполное закрытие форсунки)"
+  },
+  {
+    "code": "P0176",
+    "eng_desc": "FUEL COMPOSITION SENSOR MALFUNCTION",
+    "rus_desc": "Датчик выброса СНх неисправен"
+  },
+  {
+    "code": "P0177",
+    "eng_desc": "FUEL COMPOSITION SENS CKT RANGE/PERF",
+    "rus_desc": "Сигнал датчика выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0178",
+    "eng_desc": "FUEL COMPOSITION LOW INPUT",
+    "rus_desc": "Низкий уровень сигнала датчика СНх"
+  },
+  {
+    "code": "P0179",
+    "eng_desc": "FUEL COMPOSITION HIGH INPUT",
+    "rus_desc": "Высокий уровень сигнала датчика СНх"
+  },
+  {
+    "code": "P0180",
+    "eng_desc": "FUEL TEMP SENSOR A CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры топлива «A» неисправна"
+  },
+  {
+    "code": "P0181",
+    "eng_desc": "FUEL TEMP SENSOR A CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал датчика «A» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0182",
+    "eng_desc": "FUEL TEMP SENSOR A LOW INPUT",
+    "rus_desc": "Низкий сигнал датчика температуры топлива «A»"
+  },
+  {
+    "code": "P0183",
+    "eng_desc": "FUEL TEMP SENSOR A HIGH INPUT",
+    "rus_desc": "Высокий сигнал датчика температуры топлива «A»"
+  },
+  {
+    "code": "P0185",
+    "eng_desc": "FUEL TEMP SENSOR B CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры топлива «B» неисправна"
+  },
+  {
+    "code": "P0186",
+    "eng_desc": "FUEL TEMP SENSOR RANGE/PERF",
+    "rus_desc": "Сигнал датчика «B» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0187",
+    "eng_desc": "FUEL TEMP SENSOR B LOW INPUT",
+    "rus_desc": "Низкий сигнал датчика температуры топлива «B»"
+  },
+  {
+    "code": "P0188",
+    "eng_desc": "FUEL TEMP SENSOR B HIGH INPUT",
+    "rus_desc": "Высокий сигнал датчика температуры топлива «B»"
+  },
+  {
+    "code": "P0190",
+    "eng_desc": "FUEL RAIL PRESSURE CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика давления топлива в топливной рампе неисправна"
+  },
+  {
+    "code": "P0191",
+    "eng_desc": "FUEL RAIL CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал датчика выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0192",
+    "eng_desc": "FUEL RAIL PRESSURE LOW INPUT",
+    "rus_desc": "Низкий сигнал датчика давления топлива"
+  },
+  {
+    "code": "P0193",
+    "eng_desc": "FUEL RAIL PRESSURE HIGH INPUT",
+    "rus_desc": "Высокий сигнал датчика давления топлива"
+  },
+  {
+    "code": "P0194",
+    "eng_desc": "FUEL RAIL PRESSURE CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика давления топлива перемежающийся"
+  },
+  {
+    "code": "P0195",
+    "eng_desc": "ENGINE OIL TEMP SENSOR MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры масла в двигателе неисправна"
+  },
+  {
+    "code": "P0196",
+    "eng_desc": "ENGINE OIL TEMP SENSOR RANGE/PERF",
+    "rus_desc": "Сигнал датчика выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0197",
+    "eng_desc": "ENGINE OIL TEMP SENSOR LOW",
+    "rus_desc": "Низкий сигнал датчика температуры масла"
+  },
+  {
+    "code": "P0198",
+    "eng_desc": "ENGINE OIL TEMP SENSOR HIGH",
+    "rus_desc": "Высокий сигнал датчика температуры масла"
+  },
+  {
+    "code": "P0199",
+    "eng_desc": "ENGINE OIL TEMP SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика температуры масла перемежающийся"
+  },
+  {
+    "code": "P02XX",
+    "eng_desc": "FUEL AND AIR METERING",
+    "rus_desc": "ИЗМЕРИТЕЛИ ТОПЛИВА И ВОЗДУХА (ПРОДОЛЖЕНИЕ)"
+  },
+  {
+    "code": "P0200",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь управления форсункой неисправна"
+  },
+  {
+    "code": "P0201",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 1",
+    "rus_desc": "Цепь управления форсункой цилиндра №1 неисправна"
+  },
+  {
+    "code": "P0202",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 2",
+    "rus_desc": "Цепь управления форсункой цилиндра №2 неисправна"
+  },
+  {
+    "code": "P0203",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 3",
+    "rus_desc": "Цепь управления форсункой цилиндра №3 неисправна"
+  },
+  {
+    "code": "P0204",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 4",
+    "rus_desc": "Цепь управления форсункой цилиндра №4 неисправна"
+  },
+  {
+    "code": "P0205",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 5",
+    "rus_desc": "Цепь управления форсункой цилиндра №5 неисправна"
+  },
+  {
+    "code": "P0206",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 6",
+    "rus_desc": "Цепь управления форсункой цилиндра №6 неисправна"
+  },
+  {
+    "code": "P0207",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 7",
+    "rus_desc": "Цепь управления форсункой цилиндра №7 неисправна"
+  },
+  {
+    "code": "P0208",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 8",
+    "rus_desc": "Цепь управления форсункой цилиндра №8 неисправна"
+  },
+  {
+    "code": "P0209",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 9",
+    "rus_desc": "Цепь управления форсункой цилиндра №9 неисправна"
+  },
+  {
+    "code": "P0210",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 10",
+    "rus_desc": "Цепь управления форсункой цилиндра №10 неисправна"
+  },
+  {
+    "code": "P0211",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 11",
+    "rus_desc": "Цепь управления форсункой цилиндра №11 неисправна"
+  },
+  {
+    "code": "P0212",
+    "eng_desc": "INJECTOR CIRCUIT MALFUNCTION CYL 12",
+    "rus_desc": "Цепь управления форсункой цилиндра №12 неисправна"
+  },
+  {
+    "code": "P0213",
+    "eng_desc": "COLD START INJ N0.1 MALFUNCTION",
+    "rus_desc": "Цепь управления форсункой холодного старта №1 неисправна"
+  },
+  {
+    "code": "P0214",
+    "eng_desc": "COLD START INJ N0.2 MALFUNCTION",
+    "rus_desc": "Цепь управления форсункой холодного старта №2 неисправна"
+  },
+  {
+    "code": "P0215",
+    "eng_desc": "ENGINE SHUTOFF SOL MALFUNCTION",
+    "rus_desc": "Соленоид выключения двигателя неисправен"
+  },
+  {
+    "code": "P0216",
+    "eng_desc": "INJ TIMING CONTROL CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь контроля времени впрыска неисправна"
+  },
+  {
+    "code": "P0217",
+    "eng_desc": "ENGINE OVERTEMP CONDITION",
+    "rus_desc": "Двигатель находится в перегретом состоянии"
+  },
+  {
+    "code": "P0218",
+    "eng_desc": "TRANSMISSION OVERTEMP CONDITION",
+    "rus_desc": "Трансмиссия находится в перегретом состоянии"
+  },
+  {
+    "code": "P0219",
+    "eng_desc": "ENGINE OVERSPEED CONDITION",
+    "rus_desc": "Двигатель перекручен"
+  },
+  {
+    "code": "P0220",
+    "eng_desc": "TPS SENSOR B CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика положения дроссельной заслонки «B»"
+  },
+  {
+    "code": "P0221",
+    "eng_desc": "TPS SENSOR B CIRCUIT RANGE/PERF",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0222",
+    "eng_desc": "TPS SENSOR B LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала датчика «B»"
+  },
+  {
+    "code": "P0223",
+    "eng_desc": "TPS SENSOR B HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала датчика «B»"
+  },
+  {
+    "code": "P0224",
+    "eng_desc": "TPS SENSOR B CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика «B» перемежающийся"
+  },
+  {
+    "code": "P0225",
+    "eng_desc": "TPS SENSOR C CIRCUIT MALFUNCTION",
+    "rus_desc": "Неисправность датчика положения дроссельной заслонки «C»"
+  },
+  {
+    "code": "P0226",
+    "eng_desc": "TPS SENSOR C CIRCUIT RANGE/PERF",
+    "rus_desc": "Выход сигнала из допустимого диапазона"
+  },
+  {
+    "code": "P0227",
+    "eng_desc": "TPS SENSOR C LOW INPUT",
+    "rus_desc": "Низкий уровень выходного сигнала датчика «C»"
+  },
+  {
+    "code": "P0228",
+    "eng_desc": "TPS SENSOR C HIGH INPUT",
+    "rus_desc": "Высокий уровень выходного сигнала датчика «C»"
+  },
+  {
+    "code": "P0229",
+    "eng_desc": "TPS SENSOR C CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика «C» перемежающийся"
+  },
+  {
+    "code": "P0230",
+    "eng_desc": "FUEL PUMP PRIMARY CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная цепь бензонасоса (управление реле бензонас.) неисправна"
+  },
+  {
+    "code": "P0231",
+    "eng_desc": "FUEL PUMP SECONDARY CIRCUIT LOW",
+    "rus_desc": "Вторичная цепь бензонасоса имеет постоянно низкий уровень"
+  },
+  {
+    "code": "P0232",
+    "eng_desc": "FUEL PUMP SECONDARY CIRCUIT HIGH",
+    "rus_desc": "Вторичная цепь бензонасоса имеет постоянно высокий уровень"
+  },
+  {
+    "code": "P0233",
+    "eng_desc": "FUEL PUMP SECONDARY CKT INTERMITTENT",
+    "rus_desc": "Вторичная цепь бензонасоса имеет перемежающийся уровень"
+  },
+  {
+    "code": "P0235",
+    "eng_desc": "TURBO BOOST SENSOR A CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика давления турбо-наддува «A» неисправна"
+  },
+  {
+    "code": "P0236",
+    "eng_desc": "TURBO BOOST SENSOR A CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал с датчика турбины «A» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0237",
+    "eng_desc": "TURBO BOOST SENSOR A CIRCUIT LOW",
+    "rus_desc": "Сигнал с датчика турбины «A» имеет постоянно низкий уровень"
+  },
+  {
+    "code": "P0238",
+    "eng_desc": "TURBO BOOST SENSOR A CIRCUIT HIGH",
+    "rus_desc": "Сигнал с датчика турбины «A» имеет постоянно высокий уровень"
+  },
+  {
+    "code": "P0239",
+    "eng_desc": "TURBO BOOST SENSOR B CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика давления турбо-наддува «B» неисправна"
+  },
+  {
+    "code": "P0240",
+    "eng_desc": "TURBO BOOST SENSOR B CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал с датчика турбины «B» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0241",
+    "eng_desc": "TURBO BOOST SENSOR B CIRCUIT LOW",
+    "rus_desc": "Сигнал с датчика турбины «B» имеет постоянно низкий уровень"
+  },
+  {
+    "code": "P0242",
+    "eng_desc": "TURBO BOOST SENSOR B CIRCUIT HIGH",
+    "rus_desc": "Сигнал с датчика турбины «B» имеет постоянно высокий уровень"
+  },
+  {
+    "code": "P0243",
+    "eng_desc": "TURBO WASTEGATE A SOLENOID MALFUNC",
+    "rus_desc": "Соленоид затвора выхлопных газов турбины «A» неисправен"
+  },
+  {
+    "code": "P0244",
+    "eng_desc": "TURBO WASTEGATE A SOLENOID RANGE/PERF",
+    "rus_desc": "Сигнал соленоида турбины «A» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0245",
+    "eng_desc": "TURBO WASTEGATE A SOLENOID LOW",
+    "rus_desc": "Соленоид выхлопных газов турбины «A» всегда закрыт"
+  },
+  {
+    "code": "P0246",
+    "eng_desc": "TURBO WASTEGATE A SOLENOID HIGH",
+    "rus_desc": "Соленоид выхлопных газов турбины «A» всегда открыт"
+  },
+  {
+    "code": "P0247",
+    "eng_desc": "TURBO WASTEGATE B SOLENOID MALFUNC",
+    "rus_desc": "Соленоид выхлопных газов турбины «B» неисправен"
+  },
+  {
+    "code": "P0248",
+    "eng_desc": "TURBO WASTEGATE B SOLENOID RANGE/PERF",
+    "rus_desc": "Сигнал соленоида турбины «B» выходит из допустимого диапазона"
+  },
+  {
+    "code": "P0249",
+    "eng_desc": "TURBO WASTEGATE B SOLENOID LOW",
+    "rus_desc": "Соленоид выхлопных газов турбины «B» всегда закрыт"
+  },
+  {
+    "code": "P0250",
+    "eng_desc": "TURBO WASTEGATE B SOLENOID HIGH",
+    "rus_desc": "Соленоид выхлопных газов турбины «B» всегда открыт"
+  },
+  {
+    "code": "P0251",
+    "eng_desc": "INJECTION PUMP A ROTOR/CAM MALFUNCTION",
+    "rus_desc": "Насос впрыска турбины «A» неисправен"
+  },
+  {
+    "code": "P0252",
+    "eng_desc": "INJECTION PUMP A ROTOR/CAM RANGE/PERF",
+    "rus_desc": "Сигнал насоса впрыска турбины «A» выходит из доп. диапазона"
+  },
+  {
+    "code": "P0253",
+    "eng_desc": "INJECTION PUMP A ROTOR/CAM LOW",
+    "rus_desc": "Сигнал насоса впрыска турбины «A» имеет низкий уровень"
+  },
+  {
+    "code": "P0254",
+    "eng_desc": "INJECTION PUMP A ROTOR/CAM HIGH",
+    "rus_desc": "Сигнал насоса впрыска турбины «A» имеет высокий уровень"
+  },
+  {
+    "code": "P0255",
+    "eng_desc": "INJECTION PUMP A ROTOR/CAM INTERMIT",
+    "rus_desc": "Сигнал насоса впрыска турбины «A» перемежающийся"
+  },
+  {
+    "code": "P0256",
+    "eng_desc": "INJECTION PUMP B ROTOR/CAM MALFUNCTION",
+    "rus_desc": "Насос впрыска турбины «B» неисправен"
+  },
+  {
+    "code": "P0257",
+    "eng_desc": "INJECTION PUMP B ROTOR/CAM RANGE/PERF",
+    "rus_desc": "Сигнал насоса впрыска турбины «B» выходит из доп. диапазона"
+  },
+  {
+    "code": "P0258",
+    "eng_desc": "INJECTION PUMP B ROTOR/CAM LOW",
+    "rus_desc": "Сигнал насоса впрыска турбины «B» имеет низкий уровень"
+  },
+  {
+    "code": "P0259",
+    "eng_desc": "INJECTION PUMP B ROTOR/CAM HIGH",
+    "rus_desc": "Сигнал насоса впрыска турбины «B» имеет высокий уровень"
+  },
+  {
+    "code": "P0260",
+    "eng_desc": "INJECTION PUMP B ROTOR/CAM INTERMIT",
+    "rus_desc": "Сигнал насоса впрыска турбины «B» перемежающийся"
+  },
+  {
+    "code": "P0261",
+    "eng_desc": "INJ CYLINDER 1 CIRCUIT LOW",
+    "rus_desc": "Форсунка 1-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0262",
+    "eng_desc": "INJ CYLINDER 1 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 1-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0263",
+    "eng_desc": "CYLINDER 1 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 1-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0264",
+    "eng_desc": "INJ CYLINDER 2 CIRCUIT LOW",
+    "rus_desc": "Форсунка 2-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0265",
+    "eng_desc": "INJ CYLINDER 2 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 2-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0266",
+    "eng_desc": "CYLINDER 2 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 2-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0267",
+    "eng_desc": "INJ CYLINDER 3 CIRCUIT LOW",
+    "rus_desc": "Форсунка 3-го цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0268",
+    "eng_desc": "INJ CYLINDER 3 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 3-го цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0269",
+    "eng_desc": "CYLINDER 3 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 3-го цилиндра неисправен"
+  },
+  {
+    "code": "P0270",
+    "eng_desc": "INJ CYLINDER 4 CIRCUIT LOW",
+    "rus_desc": "Форсунка 4-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0271",
+    "eng_desc": "INJ CYLINDER 4 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 4-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0272",
+    "eng_desc": "CYLINDER 4 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 4-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0273",
+    "eng_desc": "INJ CYLINDER 5 CIRCUIT LOW",
+    "rus_desc": "Форсунка 5-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0274",
+    "eng_desc": "INJ CYLINDER 5 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 5-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0275",
+    "eng_desc": "CYLINDER 5 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 5-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0276",
+    "eng_desc": "INJ CYLINDER 6 CIRCUIT LOW",
+    "rus_desc": "Форсунка 6-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0277",
+    "eng_desc": "INJ CYLINDER 6 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 6-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0278",
+    "eng_desc": "CYLINDER 6 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 6-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0279",
+    "eng_desc": "INJ CYLINDER 7 CIRCUIT LOW",
+    "rus_desc": "Форсунка 7-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0280",
+    "eng_desc": "INJ CYLINDER 7 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 7-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0281",
+    "eng_desc": "CYLINDER 7 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 7-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0282",
+    "eng_desc": "INJ CYLINDER 8 CIRCUIT LOW",
+    "rus_desc": "Форсунка 8-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0283",
+    "eng_desc": "INJ CYLINDER 8 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 8-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0284",
+    "eng_desc": "CYLINDER 8 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 8-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0285",
+    "eng_desc": "INJ CYLINDER 9 CIRCUIT LOW",
+    "rus_desc": "Форсунка 9-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0286",
+    "eng_desc": "INJ CYLINDER 9 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 9-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0287",
+    "eng_desc": "CYLINDER 9 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 9-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0288",
+    "eng_desc": "INJ CYLINDER 10 CIRCUIT LOW",
+    "rus_desc": "Форсунка 10-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0289",
+    "eng_desc": "INJ CYLINDER 10 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 10-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0290",
+    "eng_desc": "CYLINDER 10 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 10-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0291",
+    "eng_desc": "INJ CYLINDER 11 CIRCUIT LOW",
+    "rus_desc": "Форсунка 11-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0292",
+    "eng_desc": "INJ CYLINDER 11 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 11-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0293",
+    "eng_desc": "CYLINDER 11 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 11-ого цилиндра неисправен"
+  },
+  {
+    "code": "P0294",
+    "eng_desc": "INJ CYLINDER 12 CIRCUIT LOW",
+    "rus_desc": "Форсунка 12-ого цилиндра замкнута на землю"
+  },
+  {
+    "code": "P0295",
+    "eng_desc": "INJ CYLINDER 12 CIRCUIT HIGH",
+    "rus_desc": "Форсунка 12-ого цилиндра оборвана или замкнута на +12В"
+  },
+  {
+    "code": "P0296",
+    "eng_desc": "CYLINDER 12 CONTRIB/BAL FAULT",
+    "rus_desc": "Драйвер форсунки 12-ого цилиндра неисправен"
+  },
+  {
+    "code": "P03XX",
+    "eng_desc": "IGNITION SYSTEM OR MISFIRE",
+    "rus_desc": "СИСТЕМА ЗАЖИГАНИЯ И ПРОПУСКИ"
+  },
+  {
+    "code": "P0300",
+    "eng_desc": "RANDOM/MULTIPLE MISFIRE DETECTED",
+    "rus_desc": "Обнаружены случайные/множественные пропуски зажигания"
+  },
+  {
+    "code": "P0301",
+    "eng_desc": "CYLINDER 1 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 1-ом цилиндре"
+  },
+  {
+    "code": "P0302",
+    "eng_desc": "CYLINDER 2 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания во 2-ом цилиндре"
+  },
+  {
+    "code": "P0303",
+    "eng_desc": "CYLINDER 3 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 3-ем цилиндре"
+  },
+  {
+    "code": "P0304",
+    "eng_desc": "CYLINDER 4 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 4-ом цилиндре"
+  },
+  {
+    "code": "P0305",
+    "eng_desc": "CYLINDER 5 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 5-ом цилиндре"
+  },
+  {
+    "code": "P0306",
+    "eng_desc": "CYLINDER 6 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 6-ом цилиндре"
+  },
+  {
+    "code": "P0307",
+    "eng_desc": "CYLINDER 7 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 7-ом цилиндре"
+  },
+  {
+    "code": "P0308",
+    "eng_desc": "CYLINDER 8 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 8-ом цилиндре"
+  },
+  {
+    "code": "P0309",
+    "eng_desc": "CYLINDER 9 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 9-ом цилиндре"
+  },
+  {
+    "code": "P0310",
+    "eng_desc": "CYLINDER 10 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 10-ом цилиндре"
+  },
+  {
+    "code": "P0311",
+    "eng_desc": "CYLINDER 11 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 11-ом цилиндре"
+  },
+  {
+    "code": "P0312",
+    "eng_desc": "CYLINDER 12 MISFIRE DETECTED",
+    "rus_desc": "Обнаружены пропуски зажигания в 12-ом цилиндре"
+  },
+  {
+    "code": "P0320",
+    "eng_desc": "IGN/DIST RPM CKT INPUT MALFUNCTION",
+    "rus_desc": "Цепь распределителя зажигания неисправна"
+  },
+  {
+    "code": "P0321",
+    "eng_desc": "IGN/DIST RPM CKT RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал цепи распределителя зажигания выходит за доп. пределы"
+  },
+  {
+    "code": "P0322",
+    "eng_desc": "IGN/DIST RPM CKT NO SIGNAL",
+    "rus_desc": "Сигнал цепи распределителя зажигания отсутствует"
+  },
+  {
+    "code": "P0323",
+    "eng_desc": "IGN/DIST RPM CKT INTERMITTENT",
+    "rus_desc": "Сигнал цепи распределителя зажигания перемежающийся"
+  },
+  {
+    "code": "P0325",
+    "eng_desc": "KNOCK SENSOR 1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика детонации №1 неисправна"
+  },
+  {
+    "code": "P0326",
+    "eng_desc": "KNOCK SENSOR 1 RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика детонации №1 выходит за допустимые пределы"
+  },
+  {
+    "code": "P0327",
+    "eng_desc": "KNOCK SENSOR 1 LOW INPUT",
+    "rus_desc": "Сигнал датчика детонации №1 имеет низкий уровень"
+  },
+  {
+    "code": "P0328",
+    "eng_desc": "KNOCK SENSOR 1 HIGH INPUT",
+    "rus_desc": "Сигнал датчика детонации №1 имеет высокий уровень"
+  },
+  {
+    "code": "P0329",
+    "eng_desc": "KNOCK SENSOR 1 INTERMITTENT",
+    "rus_desc": "Сигнал датчика детонации №1 перемежающийся"
+  },
+  {
+    "code": "P0330",
+    "eng_desc": "KNOCK SENSOR 2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика детонации №2 неисправна"
+  },
+  {
+    "code": "P0331",
+    "eng_desc": "KNOCK SENSOR 2 RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика детонации №2 выходит за допустимые пределы"
+  },
+  {
+    "code": "P0332",
+    "eng_desc": "KNOCK SENSOR 2 LOW INPUT",
+    "rus_desc": "Сигнал датчика детонации №2 имеет низкий уровень"
+  },
+  {
+    "code": "P0333",
+    "eng_desc": "KNOCK SENSOR 2 HIGH INPUT",
+    "rus_desc": "Сигнал датчика детонации №2 имеет высокий уровень"
+  },
+  {
+    "code": "P0334",
+    "eng_desc": "KNOCK SENSOR 2 INTERMITTENT",
+    "rus_desc": "Сигнал датчика детонации №2 перемежающийся"
+  },
+  {
+    "code": "P0335",
+    "eng_desc": "CRANKSHAFT POSITION SENS A MALFUNC",
+    "rus_desc": "Датчик положения коленчатого вала «A» неисправен"
+  },
+  {
+    "code": "P0336",
+    "eng_desc": "CRANKSHAFT POS A RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика «A» выходит за допустимые пределы"
+  },
+  {
+    "code": "P0337",
+    "eng_desc": "CRANKSHAFT POSITION SENSOR A LOW INPUT",
+    "rus_desc": "Сигнал датчика «A» имеет низкий уровень или замкнут на массу"
+  },
+  {
+    "code": "P0338",
+    "eng_desc": "CRANKSHAFT POSITION SENSOR A HIGH INPUT",
+    "rus_desc": "Сигнал датчика «A» имеет высокий уровень или замкнут на 12В"
+  },
+  {
+    "code": "P0339",
+    "eng_desc": "CRANKSHAFT POS A SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика «A» перемежающийся"
+  },
+  {
+    "code": "P0340",
+    "eng_desc": "CAMSHAFT POSITION SENSOR MALFUNCTION",
+    "rus_desc": "Датчик положения распределительного вала неисправен"
+  },
+  {
+    "code": "P0341",
+    "eng_desc": "CAMSHAFT POSITION RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0342",
+    "eng_desc": "CAMSHAFT POSITION SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика имеет низкий уровень или замкнут на массу"
+  },
+  {
+    "code": "P0343",
+    "eng_desc": "CAMSHAFT POSITION SENSOR HIGH INPUT",
+    "rus_desc": "Сигнал датчика имеет высокий уровень"
+  },
+  {
+    "code": "P0344",
+    "eng_desc": "CAMSHAFT POSITION SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика перемежающийся"
+  },
+  {
+    "code": "P0350",
+    "eng_desc": "IGN COIL PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания неисправны"
+  },
+  {
+    "code": "P0351",
+    "eng_desc": "IGN COIL A PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «A» неисправны"
+  },
+  {
+    "code": "P0352",
+    "eng_desc": "IGN COIL B PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «B» неисправны"
+  },
+  {
+    "code": "P0353",
+    "eng_desc": "IGN COIL C PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «C» неисправны"
+  },
+  {
+    "code": "P0354",
+    "eng_desc": "IGN COIL D PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «D» неисправны"
+  },
+  {
+    "code": "P0355",
+    "eng_desc": "IGN COIL E PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «E» неисправны"
+  },
+  {
+    "code": "P0356",
+    "eng_desc": "IGN COIL F PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «F» неисправны"
+  },
+  {
+    "code": "P0357",
+    "eng_desc": "IGN COIL G PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «G» неисправны"
+  },
+  {
+    "code": "P0358",
+    "eng_desc": "IGN COIL H PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «H» неисправны"
+  },
+  {
+    "code": "P0359",
+    "eng_desc": "IGN COIL I PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «I» неисправны"
+  },
+  {
+    "code": "P0360",
+    "eng_desc": "IGN COIL J PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «J» неисправны"
+  },
+  {
+    "code": "P0361",
+    "eng_desc": "IGN COIL K PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «K» неисправны"
+  },
+  {
+    "code": "P0362",
+    "eng_desc": "IGN COIL L PRI/SEC CIRCUIT MALFUNCTION",
+    "rus_desc": "Первичная/вторичная цепи катушки зажигания «L» неисправны"
+  },
+  {
+    "code": "P0370",
+    "eng_desc": "TIMING REF (HRS) A MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0371",
+    "eng_desc": "TIMING REF (HRS) A TOO MANY PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0372",
+    "eng_desc": "TIMING REF (HRS) A TOO MANY PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0373",
+    "eng_desc": "TIMING REF (HRS) A INTERMITTENT PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0374",
+    "eng_desc": "TIMING REF (HRS) A NO PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0375",
+    "eng_desc": "TIMING REF (HRS) B MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0376",
+    "eng_desc": "TIMING REF (HRS) B TOO MANY PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0377",
+    "eng_desc": "TIMING REF (HRS) B TOO MANY PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0378",
+    "eng_desc": "TIMING REF (HRS) B INTERMITTENT PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0379",
+    "eng_desc": "TIMING REF (HRS) B NO PULSES",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P0380",
+    "eng_desc": "GLOW PLUG/HEATER CIRCUIT MALFUNCTION",
+    "rus_desc": "Свеча накаливания или цепь нагрева неисправны"
+  },
+  {
+    "code": "P0381",
+    "eng_desc": "GLOW PLUG/HEATER INDICATOR MALFUNC",
+    "rus_desc": "Свеча накаливания или индикатор нагрева неисправны"
+  },
+  {
+    "code": "P0385",
+    "eng_desc": "CRANKSHFT POS SEN B CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика положения коленчатого вала «B» неисправны"
+  },
+  {
+    "code": "P0386",
+    "eng_desc": "CRANKSHFT POS SEN B RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика «B» выходит за допустимые пределы"
+  },
+  {
+    "code": "P0387",
+    "eng_desc": "CRANKSHFT POS SEN B CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика оборвана или замкнута на массу"
+  },
+  {
+    "code": "P0388",
+    "eng_desc": "CRANKSHFT POS SEN B CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика замкнута на один из силовых выводов"
+  },
+  {
+    "code": "P0389",
+    "eng_desc": "CRANKSHFT POS SEN B CIRCUIT INTERMIT",
+    "rus_desc": "Сигнал датчика «B» перемежающийся"
+  },
+  {
+    "code": "P04XX",
+    "eng_desc": "AUXILIARY EMISSION CONTROLS",
+    "rus_desc": "СИСТЕМА СНИЖЕНИЯ ТОКСИЧНОСТИ ОТРАБОТАВШИХ ГАЗОВ"
+  },
+  {
+    "code": "P0400",
+    "eng_desc": "EGR FLOW MALFUNCTION",
+    "rus_desc": "Система рециркуляции отработанных газов неисправна"
+  },
+  {
+    "code": "P0401",
+    "eng_desc": "EGR FLOW INSUFFICIENT",
+    "rus_desc": "Система рециркуляции отработанных газов неэффективна"
+  },
+  {
+    "code": "P0402",
+    "eng_desc": "EGR FLOW EXCESSIVE",
+    "rus_desc": "Система рециркуляции отработанных газов избыточна"
+  },
+  {
+    "code": "P0403",
+    "eng_desc": "EGR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика рециркуляции отработанных газов неисправна"
+  },
+  {
+    "code": "P0404",
+    "eng_desc": "EGR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0405",
+    "eng_desc": "EGR SENSOR A CIRCUIT LOW",
+    "rus_desc": "Сигнал датчика «A» имеет низкий уровень"
+  },
+  {
+    "code": "P0406",
+    "eng_desc": "EGR SENSOR A CIRCUIT HIGH",
+    "rus_desc": "Сигнал датчика «A» имеет высокий уровень"
+  },
+  {
+    "code": "P0407",
+    "eng_desc": "EGR SENSOR B CIRCUIT LOW",
+    "rus_desc": "Сигнал датчика «B» имеет низкий уровень"
+  },
+  {
+    "code": "P0408",
+    "eng_desc": "EGR SENSOR B CIRCUIT HIGH",
+    "rus_desc": "Сигнал датчика «B» имеет высокий уровень"
+  },
+  {
+    "code": "P0410",
+    "eng_desc": "SECONDARY AIR INJ SYSTEM MALFUNCTION",
+    "rus_desc": "Система вторичной подачи (впрыска) воздуха неисправна"
+  },
+  {
+    "code": "P0411",
+    "eng_desc": "SECONDARY AIR INJ INCORRECT FLOW",
+    "rus_desc": "Ошибочный поток проходит через систему вторичной подачи воздуха"
+  },
+  {
+    "code": "P0412",
+    "eng_desc": "SECONDARY AIR INJ VALVE A MALFUNCTION",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «A» неисправен"
+  },
+  {
+    "code": "P0413",
+    "eng_desc": "SECONDARY AIR INJ VALVE A OPEN",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «A» всегда открыт"
+  },
+  {
+    "code": "P0414",
+    "eng_desc": "SECONDARY AIR INJ VALVE A SHORTED",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «A» всегда закрыт"
+  },
+  {
+    "code": "P0415",
+    "eng_desc": "SECONDARY AIR INJ VALVE B MALFUNCTION",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «B» неисправен"
+  },
+  {
+    "code": "P0416",
+    "eng_desc": "SECONDARY AIR INJ VALVE B OPEN",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «B» всегда открыт"
+  },
+  {
+    "code": "P0417",
+    "eng_desc": "SECONDARY AIR INJ VALVE B SHORTED",
+    "rus_desc": "Клапан системы вторичной подачи воздуха «B» всегда закрыт"
+  },
+  {
+    "code": "P0420",
+    "eng_desc": "CAT SYS EFFIC B1 BELOW THRESHOLD",
+    "rus_desc": "Эффективность системы катализаторов «В1» ниже порога"
+  },
+  {
+    "code": "P0421",
+    "eng_desc": "WARM UP CAT EFFIC B1 BELOW THRESHOLD",
+    "rus_desc": "Эффективность прогрева катализатора «В1» ниже порога"
+  },
+  {
+    "code": "P0422",
+    "eng_desc": "MAIN CAT EFFIC B1 BELOW THRESHOLD",
+    "rus_desc": "Эффективность главного катализатора «В1» ниже порога"
+  },
+  {
+    "code": "P0423",
+    "eng_desc": "HEATED CAT EFFIC B1 BELOW THRESHOLD",
+    "rus_desc": "Эффективность нагревателя катализатора «В1» ниже порога"
+  },
+  {
+    "code": "P0424",
+    "eng_desc": "HEATED CAT TEMP B1 BELOW THRESHOLD",
+    "rus_desc": "Температура нагревателя катализатора «В2» ниже порога"
+  },
+  {
+    "code": "P0430",
+    "eng_desc": "CAT SYS EFFIC B2 BELOW THRESHOLD",
+    "rus_desc": "Эффективность системы катализаторов «В2» ниже порога"
+  },
+  {
+    "code": "P0431",
+    "eng_desc": "WARM UP CAT EFFIC B2 BELOW THRESHOLD",
+    "rus_desc": "Эффективность прогрева катализатора «В2» ниже порога"
+  },
+  {
+    "code": "P0432",
+    "eng_desc": "MAIN CAT EFFIC B2 BELOW THRESHOLD",
+    "rus_desc": "Эффективность главного катализатора «В2» ниже порога"
+  },
+  {
+    "code": "P0433",
+    "eng_desc": "HEATED CAT EFFIC B2 BELOW THRESHOLD",
+    "rus_desc": "Эффективность нагревателя катализатора «В2» ниже порога"
+  },
+  {
+    "code": "P0434",
+    "eng_desc": "HEATED CAT TEMP B2 BELOW THRESHOLD",
+    "rus_desc": "Температура нагревателя катализатора «В2» ниже порога"
+  },
+  {
+    "code": "P0440",
+    "eng_desc": "EVAP CONTROL SYSTEM MALFUNCTION",
+    "rus_desc": "Контроль системы улавливания паров бензина неисправен"
+  },
+  {
+    "code": "P0441",
+    "eng_desc": "EVAP CONTROL BAD PURGE FLOW",
+    "rus_desc": "Система улавливания паров бензина плохо продувается"
+  },
+  {
+    "code": "P0442",
+    "eng_desc": "EVAP CONTROL SMALL LEAK DETECTED",
+    "rus_desc": "Обнаружена небольшая утечка в системе улавливания паров"
+  },
+  {
+    "code": "P0443",
+    "eng_desc": "EVAP CONTROL PURGE CONT VALVE MALFUNC",
+    "rus_desc": "Управление клапаном продувки системы «EVAP» неисправно"
+  },
+  {
+    "code": "P0444",
+    "eng_desc": "EVAP PURGE VALVE CIRCUIT OPEN",
+    "rus_desc": "Клапан продувки системы «EVAP» всегда открыт"
+  },
+  {
+    "code": "P0445",
+    "eng_desc": "EVAP PURGE VALVE CIRCUIT SHORT",
+    "rus_desc": "Клапан продувки системы «EVAP» всегда закрыт"
+  },
+  {
+    "code": "P0446",
+    "eng_desc": "EVAP VENT CONTROL MALFUNCTION",
+    "rus_desc": "Управление воздушным клапаном системы «EVAP» неисправно"
+  },
+  {
+    "code": "P0447",
+    "eng_desc": "EVAP VENT CONTROL OPEN",
+    "rus_desc": "Воздушный клапан системы «EVAP» всегда открыт"
+  },
+  {
+    "code": "P0448",
+    "eng_desc": "EVAP VENT CONTROL SHORTED",
+    "rus_desc": "Воздушный клапан системы «EVAP» всегда закрыт"
+  },
+  {
+    "code": "P0450",
+    "eng_desc": "EVAP PRESS SENSOR MALFUNCTION",
+    "rus_desc": "Датчик давления паров бензина неисправен"
+  },
+  {
+    "code": "P0451",
+    "eng_desc": "EVAP CONTROL PRESS RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика давления паров бензина выходит за доп. диапазон"
+  },
+  {
+    "code": "P0452",
+    "eng_desc": "EVAP CONTROL PRESS SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика давления паров бензина имеет низкий уровень"
+  },
+  {
+    "code": "P0453",
+    "eng_desc": "EVAP CONTROL PRESS SENSOR HIGH INPUT",
+    "rus_desc": "Сигнал датчика давления паров бензина имеет высокий уровень"
+  },
+  {
+    "code": "P0454",
+    "eng_desc": "EVAP CONTROL PRESS SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика давления паров бензина перемежающийся"
+  },
+  {
+    "code": "P0455",
+    "eng_desc": "EVAP CONTROL SYS GROSS LEAK DETECTED",
+    "rus_desc": "Обнаружена грубая утечка в системе улавливания паров"
+  },
+  {
+    "code": "P0460",
+    "eng_desc": "FUEL LEVEL SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика уровня топлива неисправна"
+  },
+  {
+    "code": "P0461",
+    "eng_desc": "FUEL LEVEL SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика уровня топлива выходит за допустимые пределы"
+  },
+  {
+    "code": "P0462",
+    "eng_desc": "FUEL LEVEL SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал датчика уровня топлива имеет низкий уровень"
+  },
+  {
+    "code": "P0463",
+    "eng_desc": "FUEL LEVEL SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал датчика уровня топлива имеет высокий уровень"
+  },
+  {
+    "code": "P0464",
+    "eng_desc": "FUEL LEVEL SENSOR CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика уровня топлива перемежающийся"
+  },
+  {
+    "code": "P0465",
+    "eng_desc": "PURGE FLOW SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика потока воздуха продувки неисправна"
+  },
+  {
+    "code": "P0466",
+    "eng_desc": "PURGE FLOW SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика потока воздуха продувки выходит за доп. пределы"
+  },
+  {
+    "code": "P0467",
+    "eng_desc": "PURGE FLOW SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал датчика потока воздуха продувки имеет низкий уровень"
+  },
+  {
+    "code": "P0468",
+    "eng_desc": "PURGE FLOW SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал датчика потока воздуха продувки имеет высокий уровень"
+  },
+  {
+    "code": "P0469",
+    "eng_desc": "PURGE FLOW SENSOR CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика потока воздуха продувки перемежающийся"
+  },
+  {
+    "code": "P0470",
+    "eng_desc": "EXHAUST PRESSURE SENSOR MALFUNCTION",
+    "rus_desc": "Датчик давления выхлопных газов неисправен"
+  },
+  {
+    "code": "P0471",
+    "eng_desc": "EXHAUST PRESSURE SENSOR RANGE/PERF",
+    "rus_desc": "Сигнал датчика давления выходит за доп. диапазон"
+  },
+  {
+    "code": "P0472",
+    "eng_desc": "EXHAUST PRESSURE SENSOR LOW",
+    "rus_desc": "Сигнал датчика давления имеет низкий уровень"
+  },
+  {
+    "code": "P0473",
+    "eng_desc": "EXHAUST PRESSURE SENSOR HIGH",
+    "rus_desc": "Сигнал датчика давления имеет высокий уровень"
+  },
+  {
+    "code": "P0474",
+    "eng_desc": "EXHAUST PRESSURE SENSOR INTERMIT",
+    "rus_desc": "Сигнал датчика давления перемежающийся"
+  },
+  {
+    "code": "P0475",
+    "eng_desc": "EXHAUST PRESS VALVE CONTROL MALFUNCTION",
+    "rus_desc": "Клапан датчика давления выхлопных газов неисправен"
+  },
+  {
+    "code": "P0476",
+    "eng_desc": "EXHAUST PRESS VALVE CONTROL RANGE/PERF",
+    "rus_desc": "Сигнал клапана датчика давления выходит за доп. диапазон"
+  },
+  {
+    "code": "P0477",
+    "eng_desc": "EXHAUST PRESS VALVE CONTROL LOW",
+    "rus_desc": "Сигнал клапана датчика давления имеет низкий уровень"
+  },
+  {
+    "code": "P0478",
+    "eng_desc": "EXHAUST PRESS VALVE CONTROL HIGH",
+    "rus_desc": "Сигнал клапана датчика давления имеет высокий уровень"
+  },
+  {
+    "code": "P0479",
+    "eng_desc": "EXHAUST PRESS VALVE CONTROL INTERMIT",
+    "rus_desc": "Сигнал клапана датчика давления перемежающийся"
+  },
+  {
+    "code": "P05XX",
+    "eng_desc": "VEHICLE SPEED, IDLE CONTROL AND AUXILIARY INPUTS",
+    "rus_desc": "ДАТЧИК СКОРОСТИ, ПОДДЕРЖАНИЕ ХОЛОСТОГО ХОДА И ВСПОМОГАТЕЛЬНЫЕ ВХОДЫ"
+  },
+  {
+    "code": "P0500",
+    "eng_desc": "VSS SENSOR MALFUNCTION",
+    "rus_desc": "Датчик скорости автомобиля неисправен"
+  },
+  {
+    "code": "P0501",
+    "eng_desc": "VSS SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика скорости автомобиля выходит за доп. пределы"
+  },
+  {
+    "code": "P0502",
+    "eng_desc": "VSS SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал датчика скорости автомобиля имеет низкий уровень"
+  },
+  {
+    "code": "P0503",
+    "eng_desc": "VSS SENSOR INTERMIT/ERRATIC/HI",
+    "rus_desc": "Сигнал датчика перемежающийся или имеет высокий уровень"
+  },
+  {
+    "code": "P0505",
+    "eng_desc": "IDLE CONTROL SYSTEM MALFUNCTION",
+    "rus_desc": "Система поддержания холостого хода неисправна"
+  },
+  {
+    "code": "P0506",
+    "eng_desc": "IDLE CONTROL SYSTEM RPM TOO LOW",
+    "rus_desc": "Обороты двигателя под управлением системы слишком низкие"
+  },
+  {
+    "code": "P0507",
+    "eng_desc": "IDLE CONTROL SYSTEM RPM TOO HIGH",
+    "rus_desc": "Обороты двигателя под управлением системы слишком высокие"
+  },
+  {
+    "code": "P0510",
+    "eng_desc": "CLOSED TPS SWITCH MALFUNCTION",
+    "rus_desc": "Концевик индикации закрытого положения дросселя неисправен"
+  },
+  {
+    "code": "P0530",
+    "eng_desc": "A/C REFRIG PRESSURE SENSOR MALFUNCTION",
+    "rus_desc": "Датчик давления хладагента кондиционера неисправен"
+  },
+  {
+    "code": "P0531",
+    "eng_desc": "A/C REFRIG PRESSURE RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика давления хладагента выходит за доп. диапазон"
+  },
+  {
+    "code": "P0532",
+    "eng_desc": "A/C REFRIG PRESSURE SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика давления хладагента имеет низкий уровень"
+  },
+  {
+    "code": "P0533",
+    "eng_desc": "A/C REFRIG PRESSURE SENSOR HIGH INPUT",
+    "rus_desc": "Сигнал датчика давления хладагента имеет высокий уровень"
+  },
+  {
+    "code": "P0534",
+    "eng_desc": "A/C REFRIGERANT CHARGE LOSS",
+    "rus_desc": "Большая потеря хладагента в кондиционере"
+  },
+  {
+    "code": "P0550",
+    "eng_desc": "PSP SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Датчик давления гидроусилителя руля неисправен"
+  },
+  {
+    "code": "P0551",
+    "eng_desc": "PSP SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика давления выходит за допустимый диапазон"
+  },
+  {
+    "code": "P0552",
+    "eng_desc": "PSP SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал датчика давления имеет низкий уровень"
+  },
+  {
+    "code": "P0553",
+    "eng_desc": "PSP SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал датчика давления имеет высокий уровень"
+  },
+  {
+    "code": "P0554",
+    "eng_desc": "PSP SENSOR CIRCUIT INTERMITTENT",
+    "rus_desc": "Сигнал датчика давления перемежающийся"
+  },
+  {
+    "code": "P0560",
+    "eng_desc": "SYSTEM VOLTAGE MALFUNCTION",
+    "rus_desc": "Датчик бортового напряжения неисправен"
+  },
+  {
+    "code": "P0561",
+    "eng_desc": "SYSTEM VOLTAGE UNSTABLE",
+    "rus_desc": "Бортовое напряжение нестабильно"
+  },
+  {
+    "code": "P0562",
+    "eng_desc": "SYSTEM VOLTAGE LOW",
+    "rus_desc": "Бортовое напряжение имеет низкий уровень"
+  },
+  {
+    "code": "P0563",
+    "eng_desc": "SYSTEM VOLTAGE HIGH",
+    "rus_desc": "Бортовое напряжение имеет высокий уровень"
+  },
+  {
+    "code": "P0565",
+    "eng_desc": "CRUISE CONTROL ON SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь включения «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0566",
+    "eng_desc": "CRUISE CONTROL OFF SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь выключения «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0567",
+    "eng_desc": "CRUISE CTRL RESUME SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь продолжения работы «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0568",
+    "eng_desc": "CRUISE CONTROL SET SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь установки скорости «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0569",
+    "eng_desc": "CRUISE CTRL COAST SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь поддержки «наката» «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0570",
+    "eng_desc": "CRUISE CTRL ACCEL SIGNAL MALFUNCTION",
+    "rus_desc": "Цепь поддержки «разгона» «круиз контроля» неисправна"
+  },
+  {
+    "code": "P0571",
+    "eng_desc": "CRUISE CTRL/BRK SW CKT A MALFUNCTION",
+    "rus_desc": "Переключатель включения тормозов «круиз контроля» неисправен"
+  },
+  {
+    "code": "P0572",
+    "eng_desc": "CRUISE CTRL/BRK SW CKT A LOW",
+    "rus_desc": "Переключатель всегда замкнут"
+  },
+  {
+    "code": "P0573",
+    "eng_desc": "CRUISE CTRL/BRK SW CKT A HIGH",
+    "rus_desc": "Переключатель всегда разомкнут"
+  },
+  {
+    "code": "P06XX",
+    "eng_desc": "COMPUTER AND AUXILIARY OUTPUTS",
+    "rus_desc": "ЭЛЕКТРОННЫЙ БЛОК УПРАВЛЕНИЯ И ВСПОМОГАТЕЛЬНЫЕ ВЫХОДЫ"
+  },
+  {
+    "code": "P0600",
+    "eng_desc": "SERIAL COMM LINK MALFUNCTION",
+    "rus_desc": "Линия передачи последовательных данных неисправна"
+  },
+  {
+    "code": "P0601",
+    "eng_desc": "INTERNAL MEMORY CHECK SUM ERROR",
+    "rus_desc": "Ошибка контрольной суммы внутренней памяти"
+  },
+  {
+    "code": "P0602",
+    "eng_desc": "CONTROL MODULE PROGRAMMING ERROR",
+    "rus_desc": "Программная ошибка контрольного модуля"
+  },
+  {
+    "code": "P0603",
+    "eng_desc": "INTERN CONTROL MOD KAM ERROR",
+    "rus_desc": "Ошибка репрограммируемой памяти"
+  },
+  {
+    "code": "P0604",
+    "eng_desc": "INTERN CONTROL MOD RAM ERROR",
+    "rus_desc": "Ошибка оперативного запоминающего устройства"
+  },
+  {
+    "code": "P0605",
+    "eng_desc": "INTERN CONTROL MOD ROM ERROR",
+    "rus_desc": "Ошибка постоянного запоминающего устройства"
+  },
+  {
+    "code": "P0606",
+    "eng_desc": "PCM PROCESSOR FAULT",
+    "rus_desc": "Ошибка модуля управления энергосбережением"
+  },
+  {
+    "code": "P07XX",
+    "eng_desc": "TRANSMISSION",
+    "rus_desc": "ТРАНСМИССИЯ"
+  },
+  {
+    "code": "P0700",
+    "eng_desc": "TRANS CONTROL SYS MALFUNCTION",
+    "rus_desc": "Система управления трансмиссией неисправна"
+  },
+  {
+    "code": "P0701",
+    "eng_desc": "TRANS CONTROL SYS RANGE/PERFORMANCE",
+    "rus_desc": "Система управления трансмиссией работает неверно"
+  },
+  {
+    "code": "P0702",
+    "eng_desc": "TRANS CONTROL SYSTEM ELECTRICAL",
+    "rus_desc": "Система управления трансмиссией имеет электрическую неисправность"
+  },
+  {
+    "code": "P0703",
+    "eng_desc": "TORQ CONV/BRK SW B CKT MALFUNCTION",
+    "rus_desc": "Переключатель карданный вал/тормоза неисправен"
+  },
+  {
+    "code": "P0704",
+    "eng_desc": "CLUTCH SWITCH INPUT CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика включения сцепления неисправна"
+  },
+  {
+    "code": "P0705",
+    "eng_desc": "TRANS RANGE SENSOR MALFUNCTION (PRNDL)",
+    "rus_desc": "Датчик диапазона работы трансмиссии неисправен"
+  },
+  {
+    "code": "P0706",
+    "eng_desc": "TRANS RANGE SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0707",
+    "eng_desc": "TRANS RANGE SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал датчика имеет низкий уровень"
+  },
+  {
+    "code": "P0708",
+    "eng_desc": "TRANS RANGE SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "имеет высокий уровень"
+  },
+  {
+    "code": "P0709",
+    "eng_desc": "TRANS RANGE SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика перемежающийся"
+  },
+  {
+    "code": "P0710",
+    "eng_desc": "TRANS FLUID TEMP SENSOR MALFUNCTION",
+    "rus_desc": "Датчик температуры трансмиссионной жидкости неисправен"
+  },
+  {
+    "code": "P0711",
+    "eng_desc": "TRANS FLUID TEMP RANGE/PERFRMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0712",
+    "eng_desc": "TRANS FLUID TEMP SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика имеет низкий уровень"
+  },
+  {
+    "code": "P0713",
+    "eng_desc": "TRANS FLUID TEMP SENSOR HIGH INPUT",
+    "rus_desc": "имеет высокий уровень"
+  },
+  {
+    "code": "P0714",
+    "eng_desc": "TRANS FLUID TEMP CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика перемежающийся"
+  },
+  {
+    "code": "P0715",
+    "eng_desc": "INPUT/TURBINE SPEED SENSOR MALFUNCTION",
+    "rus_desc": "Датчик скорости турбины неисправен"
+  },
+  {
+    "code": "P0716",
+    "eng_desc": "INPUT/TURBINE SPEED RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0717",
+    "eng_desc": "INPUT/TURBINE SPEED SENSOR NO SIGNAL",
+    "rus_desc": "Сигнал датчика отсутствует"
+  },
+  {
+    "code": "P0718",
+    "eng_desc": "INPUT/TURBINE SPEED SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика перемежающийся"
+  },
+  {
+    "code": "P0719",
+    "eng_desc": "TORQ CONV/BRK SW B CIRCUIT LOW",
+    "rus_desc": "Переключатель карданный вал/тормоза замкнут на массу"
+  },
+  {
+    "code": "P0720",
+    "eng_desc": "OUTPUT SPEED SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика «Внешней скорости» неисправна"
+  },
+  {
+    "code": "P0721",
+    "eng_desc": "OUTPUT SPEED SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика «Внешней скорости» выходит за доп. пределы"
+  },
+  {
+    "code": "P0722",
+    "eng_desc": "OUTPUT SPEED SENSOR CIRCUIT NO SIGNAL",
+    "rus_desc": "Сигнал датчика «Внешней скорости» отсутствует"
+  },
+  {
+    "code": "P0723",
+    "eng_desc": "OUTPUT SPEED SENSOR CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика «Внешней скорости» перемежающийся"
+  },
+  {
+    "code": "P0724",
+    "eng_desc": "TORQ CONV/BRK SW B CIRCUIT HIGH",
+    "rus_desc": "Переключатель карданный вал/тормоза замкнут на питание"
+  },
+  {
+    "code": "P0725",
+    "eng_desc": "ENGINE SPEED SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости вращения двигателя неисправна"
+  },
+  {
+    "code": "P0726",
+    "eng_desc": "ENGINE SPEED SENSOR RANGE/PERFORMANCE",
+    "rus_desc": "Сигнал датчика выходит за допустимые пределы"
+  },
+  {
+    "code": "P0727",
+    "eng_desc": "ENGINE SPEED SENSOR CIRCUIT NO SIGNAL",
+    "rus_desc": "Сигнал датчика отсутствует"
+  },
+  {
+    "code": "P0728",
+    "eng_desc": "ENGINE SPEED SENSOR CKT INTERMITTENT",
+    "rus_desc": "Сигнал датчика перемежающийся"
+  },
+  {
+    "code": "P0730",
+    "eng_desc": "GEAR RATIO INCORRECT",
+    "rus_desc": "Передаточное число трансмиссии неверно"
+  },
+  {
+    "code": "P0731",
+    "eng_desc": "GEAR 1 INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на 1 передаче неверно"
+  },
+  {
+    "code": "P0732",
+    "eng_desc": "GEAR 2 INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на 2 передаче неверно"
+  },
+  {
+    "code": "P0733",
+    "eng_desc": "GEAR 3 INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на 3 передаче неверно"
+  },
+  {
+    "code": "P0734",
+    "eng_desc": "GEAR 4 INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на 4 передаче неверно"
+  },
+  {
+    "code": "P0735",
+    "eng_desc": "GEAR 5 INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на 5 передаче неверно"
+  },
+  {
+    "code": "P0736",
+    "eng_desc": "REVERSE INCORRECT RATIO",
+    "rus_desc": "Передаточное число трансмиссии на передаче задн. хода неверно"
+  },
+  {
+    "code": "P0740",
+    "eng_desc": "TCC CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь управления блокировкой дифференциала неисправна"
+  },
+  {
+    "code": "P0741",
+    "eng_desc": "TCC PERF OR STUCK OFF",
+    "rus_desc": "Дифференциал всегда выключен (разблокирован)"
+  },
+  {
+    "code": "P0742",
+    "eng_desc": "TCC CIRCUIT STUCK ON",
+    "rus_desc": "Дифференциал всегда включен (заблокирован)"
+  },
+  {
+    "code": "P0743",
+    "eng_desc": "TCC CIRCUIT ELECTRICAL",
+    "rus_desc": "Цепь управления блокировкой дифференциала имеет электрическую неисправность"
+  },
+  {
+    "code": "P0744",
+    "eng_desc": "TCC CIRCUIT INTERMITTENT",
+    "rus_desc": "Дифференциал состояние неустойчивое"
+  },
+  {
+    "code": "P0745",
+    "eng_desc": "PRESS CONTROL SOL MALFUNCTION",
+    "rus_desc": "Соленоид управления давлением неисправен"
+  },
+  {
+    "code": "P0746",
+    "eng_desc": "PRESS CONT SOLENOID PERF OR STUCK OFF",
+    "rus_desc": "Соленоид управления давлением всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0747",
+    "eng_desc": "PRESSURE SOLENOID STUCK ON",
+    "rus_desc": "Соленоид управления давлением всегда во включенном состоянии"
+  },
+  {
+    "code": "P0748",
+    "eng_desc": "PRESSURE CONTROL SOLENOID ELECTRICAL",
+    "rus_desc": "Соленоид управления давлением имеет электрическую неисправность"
+  },
+  {
+    "code": "P0749",
+    "eng_desc": "PRESSURE CONTROL SOL INTERMITTENT",
+    "rus_desc": "Состояние соленоида управления давлением неустойчиво"
+  },
+  {
+    "code": "P0750",
+    "eng_desc": "SHIFT SOLENOID A MALFUNCTION",
+    "rus_desc": "Соленоид «A» включения передачи неисправен"
+  },
+  {
+    "code": "P0751",
+    "eng_desc": "SHIFT SOLENOID A PERF OR STUCK OFF",
+    "rus_desc": "Соленоид «A» всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0752",
+    "eng_desc": "SHIFT SOLENOID A STUCK ON",
+    "rus_desc": "Соленоид «A» всегда во включенном состоянии"
+  },
+  {
+    "code": "P0753",
+    "eng_desc": "SHIFT SOLENOID A ELECTRICAL",
+    "rus_desc": "Соленоид «A» имеет электрическую неисправность"
+  },
+  {
+    "code": "P0754",
+    "eng_desc": "SHIFT SOLENOID A INTERMITTENT",
+    "rus_desc": "Состояние соленоида «A» неустойчиво"
+  },
+  {
+    "code": "P0755",
+    "eng_desc": "SHIFT SOLENOID B MALFUNCTION",
+    "rus_desc": "Соленоид «B» включения передачи неисправен"
+  },
+  {
+    "code": "P0756",
+    "eng_desc": "SHIFT SOLENOID B PERF OR STUCK OFF",
+    "rus_desc": "Соленоид «B» всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0757",
+    "eng_desc": "SHIFT SOLENOID B STUCK ON",
+    "rus_desc": "Соленоид «B» всегда во включенном состоянии"
+  },
+  {
+    "code": "P0758",
+    "eng_desc": "SHIFT SOLENOID B ELECTRICAL",
+    "rus_desc": "Соленоид «B» имеет электрическую неисправность"
+  },
+  {
+    "code": "P0759",
+    "eng_desc": "SHIFT SOLENOID B INTERMITTENT",
+    "rus_desc": "Состояние соленоида «B» неустойчиво"
+  },
+  {
+    "code": "P0760",
+    "eng_desc": "SHIFT SOLENOID C MALFUNCTION",
+    "rus_desc": "Соленоид «C» включения передачи неисправен"
+  },
+  {
+    "code": "P0761",
+    "eng_desc": "SHIFT SOLENOID C PERF OR STUCK OFF",
+    "rus_desc": "Соленоид «C» всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0762",
+    "eng_desc": "SHIFT SOLENOID C STUCK ON",
+    "rus_desc": "Соленоид «C» всегда во включенном состоянии"
+  },
+  {
+    "code": "P0763",
+    "eng_desc": "SHIFT SOLENOID C ELECTRICAL",
+    "rus_desc": "Соленоид «C» имеет электрическую неисправность"
+  },
+  {
+    "code": "P0764",
+    "eng_desc": "SHIFT SOLENOID C INTERMITTENT",
+    "rus_desc": "Состояние соленоида «C» неустойчиво"
+  },
+  {
+    "code": "P0765",
+    "eng_desc": "SHIFT SOLENOID D MALFUNCTION",
+    "rus_desc": "Соленоид «D» включения передачи неисправен"
+  },
+  {
+    "code": "P0766",
+    "eng_desc": "SHIFT SOLENOID D PERF OR STUCK OFF",
+    "rus_desc": "Соленоид «D» всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0767",
+    "eng_desc": "SHIFT SOLENOID D STUCK ON",
+    "rus_desc": "Соленоид «D» всегда во включенном состоянии"
+  },
+  {
+    "code": "P0768",
+    "eng_desc": "SHIFT SOLENOID D ELECTRICAL",
+    "rus_desc": "Соленоид «D» имеет электрическую неисправность"
+  },
+  {
+    "code": "P0769",
+    "eng_desc": "SHIFT SOLENOID D INTERMITTENT",
+    "rus_desc": "Состояние соленоида «D» неустойчиво"
+  },
+  {
+    "code": "P0770",
+    "eng_desc": "SHIFT SOLENOID E MALFUNCTION",
+    "rus_desc": "Соленоид «E» включения передачи неисправен"
+  },
+  {
+    "code": "P0771",
+    "eng_desc": "SHIFT SOLENOID E PERF OR STUCK OFF",
+    "rus_desc": "Соленоид «E» всегда в выключенном состоянии"
+  },
+  {
+    "code": "P0772",
+    "eng_desc": "SHIFT SOLENOID E STUCK ON",
+    "rus_desc": "Соленоид «E» всегда во включенном состоянии"
+  },
+  {
+    "code": "P0773",
+    "eng_desc": "SHIFT SOLENOID E ELECTRICAL",
+    "rus_desc": "Соленоид «E» имеет электрическую неисправность"
+  },
+  {
+    "code": "P0774",
+    "eng_desc": "SHIFT SOLENOID E INTERMITTENT",
+    "rus_desc": "Состояние соленоида «E» неустойчиво"
+  },
+  {
+    "code": "P0780",
+    "eng_desc": "SHIFT MALFUNCTION",
+    "rus_desc": "Переключение передач не работает"
+  },
+  {
+    "code": "P0781",
+    "eng_desc": "1-2 SHIFT MALFUNCTION",
+    "rus_desc": "Переключение передач с 1-ой на 2-ю не работает"
+  },
+  {
+    "code": "P0782",
+    "eng_desc": "2-3 SHIFT MALFUNCTION",
+    "rus_desc": "Переключение передач со 2-й на 3-ю не работает"
+  },
+  {
+    "code": "P0783",
+    "eng_desc": "3-4 SHIFT MALFUNCTION",
+    "rus_desc": "Переключение передач с 3-й на 4-ю не работает"
+  },
+  {
+    "code": "P0784",
+    "eng_desc": "4-5 SHIFT MALFUNCTION",
+    "rus_desc": "Переключение передач с 4-й на 5-ю не работает"
+  },
+  {
+    "code": "P0785",
+    "eng_desc": "SHIFT/TIMING SOL MALFUNCTION",
+    "rus_desc": "Соленоид управления синхронизатором неисправен"
+  },
+  {
+    "code": "P0786",
+    "eng_desc": "SHIFT/TIMING SOL RANGE/PERFORMANCE",
+    "rus_desc": "Соленоид управления синхронизатором имеет неисправность, связанную с диапазоном/производительностью"
+  },
+  {
+    "code": "P0787",
+    "eng_desc": "SHIFT/TIMING SOL LOW",
+    "rus_desc": "Соленоид управления синхронизатором всегда выключен"
+  },
+  {
+    "code": "P0788",
+    "eng_desc": "SHIFT/TIMING SOL HIGH",
+    "rus_desc": "Соленоид управления синхронизатором всегда включен"
+  },
+  {
+    "code": "P0789",
+    "eng_desc": "SHIFT/TIMING SOL INTERMITTENT",
+    "rus_desc": "Соленоид управления синхронизатором неустойчив"
+  },
+  {
+    "code": "P0790",
+    "eng_desc": "NORM/PERFORM SWITCH CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь переключателя режима движения неисправна"
+  },
+  {
+    "code": "P1XXX",
+    "eng_desc": "1995- Chrysler/Jeep",
+    "rus_desc": "1995- Chrysler/Jeep"
+  },
+  {
+    "code": "P1291",
+    "eng_desc": "HEATED AIR INTAKE",
+    "rus_desc": "На впуске перегретый воздух"
+  },
+  {
+    "code": "P1292",
+    "eng_desc": "CN GAS HIGH PRESSURE",
+    "rus_desc": "Давление газа (бензина) в «CN» высокое"
+  },
+  {
+    "code": "P1293",
+    "eng_desc": "CN GAS LOW PRESSURE",
+    "rus_desc": "Давление газа (бензина) в «CN» низкое"
+  },
+  {
+    "code": "P1294",
+    "eng_desc": "IDLE SPEED PERFORMANCE",
+    "rus_desc": "Холостой ход нестабилен"
+  },
+  {
+    "code": "P1295",
+    "eng_desc": "TPS SENSOR NO 5V FEED",
+    "rus_desc": "На датчике положения дроссельной заслонки нет питания 5В"
+  },
+  {
+    "code": "P1296",
+    "eng_desc": "MAP SENSOR NO 5V FEED",
+    "rus_desc": "На датчике давления воздуха во впускном кол. нет питания 5В"
+  },
+  {
+    "code": "P1297",
+    "eng_desc": "MAP PNEUMATIC CHANGE",
+    "rus_desc": "Давление в датчике мало"
+  },
+  {
+    "code": "P1298",
+    "eng_desc": "WIDE OPEN THROTTLE LEAN",
+    "rus_desc": "Широко открытый дроссель беднит"
+  },
+  {
+    "code": "P1298",
+    "eng_desc": "NO VARIATION IN MAP SIGNAL IS DETECTED",
+    "rus_desc": "Обнаружено отсутствие изменений сигнала с датчика давления воздуха"
+  },
+  {
+    "code": "P1299",
+    "eng_desc": "AIR FLOW TOO HIGH",
+    "rus_desc": "Поток воздуха слишком большой"
+  },
+  {
+    "code": "P1390",
+    "eng_desc": "CAM/CRANK TIMING",
+    "rus_desc": "Сбой по времени синхронизации коленчатого вала"
+  },
+  {
+    "code": "P1391",
+    "eng_desc": "CAM/CRANK SENSOR LOSS",
+    "rus_desc": "Пропадание сигнала датчика вращения коленчатого вала"
+  },
+  {
+    "code": "P1391",
+    "eng_desc": "NO PEAK PRI #1 WITH MAX DWELL TIME",
+    "rus_desc": "Отсутствие сигнала «начало отсчета» №1 больше пол. времени"
+  },
+  {
+    "code": "P1392",
+    "eng_desc": "NO PEAK PRI #2 WITH MAX DWELL TIME",
+    "rus_desc": "Отсутствие сигнала «начало отсчета» №2 больше пол. Времени"
+  },
+  {
+    "code": "P1393",
+    "eng_desc": "NO PEAK PRI #3 WITH MAX DWELL TIME",
+    "rus_desc": "Отсутствие сигнала «начало отсчета» №3 больше пол. Времени"
+  },
+  {
+    "code": "P1394",
+    "eng_desc": "NO PEAK PRI #4 WITH MAX DWELL TIME",
+    "rus_desc": "Отсутствие сигнала «начало отсчета» №4 больше пол. Времени"
+  },
+  {
+    "code": "P1395",
+    "eng_desc": "NO PEAK PRI #5 WITH MAX DWELL TIME",
+    "rus_desc": "Отсутствие сигнала «начало отсчета» №5 больше пол. времени"
+  },
+  {
+    "code": "P1398",
+    "eng_desc": "CRANK SENSOR",
+    "rus_desc": "Датчик положения коленчатого вала"
+  },
+  {
+    "code": "P1399",
+    "eng_desc": "WAIT TO STRT LMP CKT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1486",
+    "eng_desc": "EVAP HOSE PINCHED",
+    "rus_desc": "Пережат испарительный рукав"
+  },
+  {
+    "code": "P1487",
+    "eng_desc": "HI SPD FAN #2 CKT",
+    "rus_desc": "Цепь высокоскоростного вентилятора №2"
+  },
+  {
+    "code": "P1488",
+    "eng_desc": "AUX 5 VOLT LOW OUTPUT",
+    "rus_desc": "Питание датчиков 5В отсутствует"
+  },
+  {
+    "code": "P1489",
+    "eng_desc": "HI SPD FAN RELAY CIRCUIT",
+    "rus_desc": "Цепь реле высокоскоростного вентилятора"
+  },
+  {
+    "code": "P1490",
+    "eng_desc": "LO SPD FAN RELAY CIRCUIT",
+    "rus_desc": "Цепь реле низкоскоростного вентилятора"
+  },
+  {
+    "code": "P1491",
+    "eng_desc": "RADIATOR FAN RELAY CIRCUIT",
+    "rus_desc": "Цепь реле радиаторного вентилятора"
+  },
+  {
+    "code": "P1492",
+    "eng_desc": "AMBIENT TEMP SENSOR HIGH",
+    "rus_desc": "Сигнал датчика внешней температуры всегда высокий"
+  },
+  {
+    "code": "P1493",
+    "eng_desc": "AMBIENT TEMP SENSOR LOW",
+    "rus_desc": "Сигнал датчика внешней температуры всегда низкий"
+  },
+  {
+    "code": "P1494",
+    "eng_desc": "LEAK DETECT PUMP PRESSURE SWITCH",
+    "rus_desc": "Обнаружена утечка в цепи переключателя давления насоса"
+  },
+  {
+    "code": "P1495",
+    "eng_desc": "LEAK DETECT PUMP SOLENOID CIRCUIT",
+    "rus_desc": "Обнаружена утечка в цепи соленоида насоса"
+  },
+  {
+    "code": "P1496",
+    "eng_desc": "5 VOLT LOW OUTPUT",
+    "rus_desc": "Отсутствует 5В выход"
+  },
+  {
+    "code": "P1596",
+    "eng_desc": "POWER STEEPING SW. BAD INPUT STATE",
+    "rus_desc": "Мощный шаговый переключатель имеет неправ. нач. положение"
+  },
+  {
+    "code": "P1598",
+    "eng_desc": "A/C PRESS SENSOR INPUT VOLT TOO LOW",
+    "rus_desc": "Сигнал датчика давления в кондиционере всегда низкий"
+  },
+  {
+    "code": "P1599",
+    "eng_desc": "A/C PRESS SENSOR INPUT VOLT TOO HIGH",
+    "rus_desc": "Сигнал датчика давления в кондиционере всегда высокий"
+  },
+  {
+    "code": "P1698",
+    "eng_desc": "NO COD MESGS RECVD TRANS CNTRL MOD",
+    "rus_desc": "Нет кодов сообщений принятых в «Trans control mode»"
+  },
+  {
+    "code": "P1699",
+    "eng_desc": "NO CОD MESGS RECVD PWRTRAIN CNTRL MOD",
+    "rus_desc": "Нет кодов сообщений принятых в «Powertrain control mode»"
+  },
+  {
+    "code": "P1761",
+    "eng_desc": "GOV CONTROL SYSTEM",
+    "rus_desc": "Управляющая контрольная система"
+  },
+  {
+    "code": "P1762",
+    "eng_desc": "GOV PRESS SENSOR OFFSET",
+    "rus_desc": "Сигнал датчика давления GOV смещен"
+  },
+  {
+    "code": "P1763",
+    "eng_desc": "GOV PRESS SENSOR HIGH",
+    "rus_desc": "Сигнал датчика давления GOV всегда высокий"
+  },
+  {
+    "code": "P1764",
+    "eng_desc": "GOV PRESS SENSOR LOW",
+    "rus_desc": "Сигнал датчика давления GOV всегда низкий"
+  },
+  {
+    "code": "P1765",
+    "eng_desc": "TRANS VOLTAGE RELAY CIRCUIT",
+    "rus_desc": "Изменение напряжения в цепи реле"
+  },
+  {
+    "code": "P1899",
+    "eng_desc": "PARK/NEUTRAL SWITCH WRONG INPUT STATE",
+    "rus_desc": "Переключатель парковки/нейтрали находится в ошибочном положении"
+  },
+  {
+    "code": "P1XXX",
+    "eng_desc": "1995- Ford",
+    "rus_desc": "1995- Ford"
+  },
+  {
+    "code": "P1000",
+    "eng_desc": "CHECK OF SYS INCOMP MORE DRIVING REQ’D",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1100",
+    "eng_desc": "MAF SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика расхода воздуха перемежающийся"
+  },
+  {
+    "code": "P1101",
+    "eng_desc": "MAF SENSOR OUT OF RANGE",
+    "rus_desc": "Сигнал датчика расхода воздуха выходит из доп. диапазона"
+  },
+  {
+    "code": "P1112",
+    "eng_desc": "IAT SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика температуры воздуха на впуске перемежающийся"
+  },
+  {
+    "code": "P1116",
+    "eng_desc": "ECT SENSOR OUT OF RANGE",
+    "rus_desc": "Сигнал датчика температуры охл. жид. выходит из доп. диапазона"
+  },
+  {
+    "code": "P1117",
+    "eng_desc": "ECT SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика температуры охл. жид. Перемежающийся"
+  },
+  {
+    "code": "P1120",
+    "eng_desc": "TP CIRCUIT OUT OF RANGE LOW",
+    "rus_desc": "Сигнал датчика положения дросселя всегда низкий"
+  },
+  {
+    "code": "P1121",
+    "eng_desc": "TP SENSOR INCONSISTENT W/MAF",
+    "rus_desc": "Сигнал датчика положения дросселя не согласуется с ДМРВ"
+  },
+  {
+    "code": "P1124",
+    "eng_desc": "TP SENSOR OUT OF RANGE",
+    "rus_desc": "Сигнал датчика положения дросселя выходит за доп. диапазон"
+  },
+  {
+    "code": "P1125",
+    "eng_desc": "TP SENSOR INTERMITTENT",
+    "rus_desc": "Сигнал датчика положения дросселя перемежающийся"
+  },
+  {
+    "code": "P1130",
+    "eng_desc": "HO2 NO SWITCH B1 SI ADAPTIVE FUEL LIMIT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1131",
+    "eng_desc": "HO2 NO SWITCH B1 SYNDICATES LEAN",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1132",
+    "eng_desc": "HO2 NO SWITCH B1 SYNDICATES RICH",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1150",
+    "eng_desc": "HO2 NO SWITCH B2 SI ADAPTIVE FUEL LIMIT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1151",
+    "eng_desc": "HO2 NO SWITCH B2 SYNDICATES LEAN",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1152",
+    "eng_desc": "HO2 NO SWITCH B2 SYNDICATES RICH",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1220",
+    "eng_desc": "SERIES THROTTLE CONTROL MALFUNCTION",
+    "rus_desc": "Последовательный канал управления дросселем неисправен"
+  },
+  {
+    "code": "P1224",
+    "eng_desc": "TPS B SELF TEST OUT OF RANGE",
+    "rus_desc": "Внутренний тест датчика положения дросселя выходит за доп."
+  },
+  {
+    "code": "P1233",
+    "eng_desc": "FUEL PUMP DRIVER MODULE OFFLINE-MIL",
+    "rus_desc": "Драйвер модуля топливного насоса выключен и горит инд. лампа"
+  },
+  {
+    "code": "P1234",
+    "eng_desc": "FUEL PUMP DRIVER MODULE OFFLINE",
+    "rus_desc": "Драйвер модуля топливного насоса выключен"
+  },
+  {
+    "code": "P1235",
+    "eng_desc": "FUEL PUMP CONTROL OUT OF RANGE-MIL",
+    "rus_desc": "Драйвер модуля топливного насоса выходит из доп. диапазона"
+  },
+  {
+    "code": "P1236",
+    "eng_desc": "FUEL PUMP CONTROL OUT OF RANGE",
+    "rus_desc": "Драйвер модуля топливного насоса выходит из доп. диапазона"
+  },
+  {
+    "code": "P1237",
+    "eng_desc": "FUEL PUMP SECONDARY CIRCUIT MALF-MIL",
+    "rus_desc": "Вторичная цепь топливного насоса неисправна и горит инд. лампа"
+  },
+  {
+    "code": "P1238",
+    "eng_desc": "FUEL PUMP SECONDARY CIRCUIT MALFUNCTION",
+    "rus_desc": "Вторичная цепь топливного насоса неисправна"
+  },
+  {
+    "code": "P1260",
+    "eng_desc": "THEFT DETECTED ENGINE DISABLED",
+    "rus_desc": "Двигатель выключен противоугонной системой (обнаружен вор)"
+  },
+  {
+    "code": "P1270",
+    "eng_desc": "RPM OR VEH SPEED LIMITER REACHED",
+    "rus_desc": "Обороты двигателя или скорость авт. не достигают ограничителя"
+  },
+  {
+    "code": "P1299",
+    "eng_desc": "ENGINE OVERTEMP CONDITION",
+    "rus_desc": "Двигатель в состоянии перегрева"
+  },
+  {
+    "code": "P1351",
+    "eng_desc": "IGN DIAGNOSTIC INPUT MALFUNCTION",
+    "rus_desc": "Вход диагностики зажигания неисправен"
+  },
+  {
+    "code": "P1352",
+    "eng_desc": "IGN COIL A PRIMARY MALFUNCTION",
+    "rus_desc": "Первичная цепь катушки зажигания «A» неисправна"
+  },
+  {
+    "code": "P1353",
+    "eng_desc": "IGN COIL B PRIMARY MALFUNCTION",
+    "rus_desc": "Первичная цепь катушки зажигания «B» неисправна"
+  },
+  {
+    "code": "P1354",
+    "eng_desc": "IGN COIL C PRIMARY MALFUNCTION",
+    "rus_desc": "Первичная цепь катушки зажигания «C» неисправна"
+  },
+  {
+    "code": "P1355",
+    "eng_desc": "IGN COIL D PRIMARY MALFUNCTION",
+    "rus_desc": "Первичная цепь катушки зажигания «D» неисправна"
+  },
+  {
+    "code": "P1356",
+    "eng_desc": "PIP WHILE IDM PULSE SAYS ENG NOT TURNIN",
+    "rus_desc": "Импульсы с зубчатого колеса показывают, что двигатель не крутится"
+  },
+  {
+    "code": "P1357",
+    "eng_desc": "IDM PULSE WIDTH NOT DEFINED",
+    "rus_desc": "Ширина «IDM» импульса не определяется"
+  },
+  {
+    "code": "P1358",
+    "eng_desc": "IDM SIGNAL OUT OF RANGE",
+    "rus_desc": "Ширина «IDM» импульса выходит из допустимого диапазона"
+  },
+  {
+    "code": "P1359",
+    "eng_desc": "SPARK OUTPUT CKT MALFUNCTION",
+    "rus_desc": "Выходная цепь зажигания неисправна"
+  },
+  {
+    "code": "P1364",
+    "eng_desc": "IGN COIL PRIMARY MALFUNCTION",
+    "rus_desc": "Первичная катушка зажигания неисправна"
+  },
+  {
+    "code": "P1390",
+    "eng_desc": "OCTANE ADJUST PIN IN USE/CIRCUIT OPEN",
+    "rus_desc": "Вывод октан потенциометра или его цепь оборваны"
+  },
+  {
+    "code": "P1400",
+    "eng_desc": "DPFE SENSOR LOW VOLTAGE",
+    "rus_desc": "Сигнал датчика «DPFE» всегда в низком уровне"
+  },
+  {
+    "code": "P1401",
+    "eng_desc": "DPFE SENSOR HIGH VOLTAGE",
+    "rus_desc": "Сигнал датчика «DPFE» всегда в высоком уровне"
+  },
+  {
+    "code": "P1403",
+    "eng_desc": "DPFE SENSOR HOSES REVERSED",
+    "rus_desc": "Сигнал датчика «DPFE» в шланге перевернут"
+  },
+  {
+    "code": "P1405",
+    "eng_desc": "DPFE SENSOR UPSTREAM HOSE OFF",
+    "rus_desc": "Сигнал датчика «DPFE» в обратном шланге не работает"
+  },
+  {
+    "code": "P1406",
+    "eng_desc": "DPFE SENSOR DOWNSTREAM HOSE OFF",
+    "rus_desc": "Сигнал датчика «DPFE» в прямом шланге не работает"
+  },
+  {
+    "code": "P1407",
+    "eng_desc": "EGR NO FLOW DETECTED",
+    "rus_desc": "Не обнаружен поток отработанных газов в системе рециркуляции"
+  },
+  {
+    "code": "P1408",
+    "eng_desc": "EGR FLOW OUT OF TEST RANGE",
+    "rus_desc": "Поток рециркуляции отработанных газов выходит из тестового диапазона"
+  },
+  {
+    "code": "P1409",
+    "eng_desc": "EGR CONTROL CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь управления рециркуляцией отработанных газов неисправна"
+  },
+  {
+    "code": "P1413",
+    "eng_desc": "SECONDARY AIR INJ CIRCUIT LOW VOLTAGE",
+    "rus_desc": "Цепь впрыска вторичного воздуха в низком уровне"
+  },
+  {
+    "code": "P1414",
+    "eng_desc": "SECONDARY AIR INJ CIRCUIT Hi VOLTAGE",
+    "rus_desc": "Цепь впрыска вторичного воздуха в высоком уровне"
+  },
+  {
+    "code": "P1443",
+    "eng_desc": "EVAP PURGE MALFUNCTION",
+    "rus_desc": "Продувка системы улавливания паров бензина неисправна"
+  },
+  {
+    "code": "P1444",
+    "eng_desc": "PURGE FLOW SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика потока продувки адсорбера в низком уровне"
+  },
+  {
+    "code": "P1445",
+    "eng_desc": "PURGE FLOW SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика потока продувки адсорбера в высоком уровне"
+  },
+  {
+    "code": "P1460",
+    "eng_desc": "WIDE OPEN THROTTLE A/C CUTOUT FAILURE",
+    "rus_desc": "Кондиционер не выключается при полностью открытом дросселе"
+  },
+  {
+    "code": "P1461",
+    "eng_desc": "A/C PRESSURE CKT HIGH INPUT",
+    "rus_desc": "Цепь давления кондиционера всегда в высоком уровне"
+  },
+  {
+    "code": "P1462",
+    "eng_desc": "A/C PRESSURE CKT LOW INPUT",
+    "rus_desc": "Цепь давления кондиционера всегда в низком уровне"
+  },
+  {
+    "code": "P1463",
+    "eng_desc": "A/C PRESSURE INSUFFICIENT CHANGE",
+    "rus_desc": "Давление в кондиционере меняется недостаточно"
+  },
+  {
+    "code": "P1464",
+    "eng_desc": "A/C DEMAND OUT OF RANGE",
+    "rus_desc": "Запрос на включение кондиционера выходит из допустимого диапазона"
+  },
+  {
+    "code": "P1469",
+    "eng_desc": "A/C CYCLING PERIOD LOW",
+    "rus_desc": "Период повторения кондиционера мал"
+  },
+  {
+    "code": "P1473",
+    "eng_desc": "FAN MONITOR HIGH/W FANS OFF",
+    "rus_desc": "Управление вентилятором высокое, а вентилятор выключен"
+  },
+  {
+    "code": "P1474",
+    "eng_desc": "FAN CONTROL LOW SPEED FAILURE",
+    "rus_desc": "Высокоскоростной контроль вентилятора неисправен"
+  },
+  {
+    "code": "P1479",
+    "eng_desc": "FAN CONTROL HIGH SPEED FAILURE",
+    "rus_desc": "Низкоскоростной контроль вентилятора неисправен"
+  },
+  {
+    "code": "P1480",
+    "eng_desc": "FAN MONITOR LOW/W LOW FAN ON",
+    "rus_desc": "Управление вентилятора низкое, а вентилятор выключен"
+  },
+  {
+    "code": "P1481",
+    "eng_desc": "FAN MONITOR LOW/W HIGH FAN ON",
+    "rus_desc": "Управление вентилятора низкое, а вентилятор выключен"
+  },
+  {
+    "code": "P1500",
+    "eng_desc": "VSS INTERMITTENT",
+    "rus_desc": "Сигнал датчика скорости автомобиля неисправен"
+  },
+  {
+    "code": "P1505",
+    "eng_desc": "IAC AT ADAPTIVE CLIP",
+    "rus_desc": "Ошибочная адаптация регулятора холостого хода"
+  },
+  {
+    "code": "P1518",
+    "eng_desc": "INLET MAN. RUNNER STUCK OPEN",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1519",
+    "eng_desc": "INLET MAN. RUNNER STUCK CLOSED",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1520",
+    "eng_desc": "INLET MAN. RUNNER MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1550",
+    "eng_desc": "PSP OUT OF RANGE",
+    "rus_desc": "Давление в гидроусилителе руля выходит из допустимого диапазона"
+  },
+  {
+    "code": "P1605",
+    "eng_desc": "ROM/KAM TEST KEEP ALIVE MEM FAIL",
+    "rus_desc": "Тест заполнения ROM/KAM памяти показывает сбой"
+  },
+  {
+    "code": "P1610",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1611",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1612",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1613",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1614",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1615",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1616",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1617",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1618",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1619",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1620",
+    "eng_desc": "FLASH EPROM REPROG ERROR",
+    "rus_desc": "Репрограммируемая память EEPROM неисправна"
+  },
+  {
+    "code": "P1650",
+    "eng_desc": "PSP SENSOR OUT OF RANGE",
+    "rus_desc": "Датчик гидроусилителя руля выходит из допустимого диапазона"
+  },
+  {
+    "code": "P1651",
+    "eng_desc": "PSP SENSOR INPUT MALFUNCTION",
+    "rus_desc": "Датчик гидроусилителя руля неисправен"
+  },
+  {
+    "code": "P1701",
+    "eng_desc": "REVERSE ENGAGEMENT ERROR",
+    "rus_desc": "Ошибка зацепления реверса"
+  },
+  {
+    "code": "P1703",
+    "eng_desc": "BRAKE SWITCH OUT OF RANGE",
+    "rus_desc": "Переключатель тормозов выходит за диапазон"
+  },
+  {
+    "code": "P1705",
+    "eng_desc": "TRANS RANGE SENSOR OUT OF RANGE",
+    "rus_desc": "Датчик выбора режима трансмиссии выходит за диапазон"
+  },
+  {
+    "code": "P1709",
+    "eng_desc": "PNP SWITCH OUT OF RANGE",
+    "rus_desc": "Переключатель парковка/нейтраль выходит за диапазон"
+  },
+  {
+    "code": "P1711",
+    "eng_desc": "TFT SENSOR OUT OF RANGE",
+    "rus_desc": "«TFT» датчик выходит за диапазон"
+  },
+  {
+    "code": "P1729",
+    "eng_desc": "4X4L SWITCH ERROR",
+    "rus_desc": "Переключатель 4X4 неисправен"
+  },
+  {
+    "code": "P1730",
+    "eng_desc": "4X4 LOW ERROR",
+    "rus_desc": "4X4 ошибка низкого уровня"
+  },
+  {
+    "code": "P1731",
+    "eng_desc": "1-2 SHIFT ERROR",
+    "rus_desc": "Ошибка переключателя с 1-ой на 2-ю передачу"
+  },
+  {
+    "code": "P1732",
+    "eng_desc": "2-3 SHIFT ERROR",
+    "rus_desc": "Ошибка переключателя с 2-ой на 3-ю передачу"
+  },
+  {
+    "code": "P1733",
+    "eng_desc": "3-4 SHIFT ERROR",
+    "rus_desc": "Ошибка переключателя с 3-ей на 4-ю передачу"
+  },
+  {
+    "code": "P1741",
+    "eng_desc": "TCC CONTROL ERROR",
+    "rus_desc": "Ошибка управления сцеплением"
+  },
+  {
+    "code": "P1742",
+    "eng_desc": "TCC PWM SOL FAILED ON",
+    "rus_desc": "Соленоид включения сцепления не включается"
+  },
+  {
+    "code": "P1743",
+    "eng_desc": "TCC PWM SOL FAILED ON",
+    "rus_desc": "Соленоид включения сцепления не включается"
+  },
+  {
+    "code": "P1744",
+    "eng_desc": "TCC SYSTEM PERFORMANCE",
+    "rus_desc": "Медленная работа сцепления"
+  },
+  {
+    "code": "P1746",
+    "eng_desc": "EPC SOLENOID OPEN CIRCUIT",
+    "rus_desc": "Цепь «EPC» соленоида оборвана"
+  },
+  {
+    "code": "P1747",
+    "eng_desc": "EPC SOLENOID SHORT CIRCUIT",
+    "rus_desc": "Цепь «EPC» соленоида замкнута"
+  },
+  {
+    "code": "P1749",
+    "eng_desc": "EPC SOLENOID FAILED LOW",
+    "rus_desc": "«EPC» соленоид не задвигается"
+  },
+  {
+    "code": "P1751",
+    "eng_desc": "SHIFT SOLENOID A PERFORMANCE",
+    "rus_desc": "Соленоид «A» переключения передач медленно работает"
+  },
+  {
+    "code": "P1754",
+    "eng_desc": "COAST CLUTCH CKT MALFUNCTION",
+    "rus_desc": "Цепь включения накатной муфты не работает"
+  },
+  {
+    "code": "P1756",
+    "eng_desc": "SHIFT SOLENOID B PERFORMANCE",
+    "rus_desc": "Соленоид «B» переключения передач медленно работает"
+  },
+  {
+    "code": "P1761",
+    "eng_desc": "SHIFT SOLENOID C PERFORMANCE",
+    "rus_desc": "Соленоид «C» переключения передач медленно работает"
+  },
+  {
+    "code": "P1766",
+    "eng_desc": "SHIFT SOLENOID D PERFORMANCE",
+    "rus_desc": "Соленоид «D» переключения передач медленно работает"
+  },
+  {
+    "code": "P1780",
+    "eng_desc": "TCS OUT OF RANGE",
+    "rus_desc": "TCS вышел из диапазона"
+  },
+  {
+    "code": "P1781",
+    "eng_desc": "4X4L SWITCH OUT OF RANGE",
+    "rus_desc": "4X4L — переключатель вышел из диапазона"
+  },
+  {
+    "code": "P1783",
+    "eng_desc": "TRANSMISSION OVERTEMPERATURE",
+    "rus_desc": "Трансмиссия перегрета"
+  },
+  {
+    "code": "P1784",
+    "eng_desc": "TRANS 1ST & REV. MECHANICAL FAILURE",
+    "rus_desc": "Первая или задняя передачи механически неисправна"
+  },
+  {
+    "code": "P1785",
+    "eng_desc": "TRANS 1ST & 2ND MECHANICAL FAILURE",
+    "rus_desc": "Первая или вторая передачи механически неисправна"
+  },
+  {
+    "code": "P1788",
+    "eng_desc": "VFS #2 OPEN CIRCUIT",
+    "rus_desc": "Цепь VFS №2 оборвана"
+  },
+  {
+    "code": "P1789",
+    "eng_desc": "VFS #2 SHORT CIRCUIT",
+    "rus_desc": "Цепь VFS №2 замкнута"
+  },
+  {
+    "code": "U1039",
+    "eng_desc": "VSS FAILURE",
+    "rus_desc": "Датчик скорости автомобиля неисправен"
+  },
+  {
+    "code": "U1051",
+    "eng_desc": "BRAKE SWITCH SIG. FAILURE",
+    "rus_desc": "Выключатель стоп-сигнала неисправен"
+  },
+  {
+    "code": "U1135",
+    "eng_desc": "IGN SWITCH SIG. FAILURE",
+    "rus_desc": "Выключатель (замок) зажигания неисправен"
+  },
+  {
+    "code": "U1451",
+    "eng_desc": "PATS MODULE NO RESP/ENG DISABLE",
+    "rus_desc": "Часть модулей не отвечает или двигатель выключен"
+  },
+  {
+    "code": "P1XXX",
+    "eng_desc": "1995- GM (General Motors)",
+    "rus_desc": "1995- GM (General Motors)"
+  },
+  {
+    "code": "P1002",
+    "eng_desc": "BRAKE BOOSTER VAC SHORTED",
+    "rus_desc": "Вакуумный усилитель тормозов заткнут"
+  },
+  {
+    "code": "P1003",
+    "eng_desc": "BRAKE BOOSTER VAC OPEN",
+    "rus_desc": "Вакуумный усилитель тормозов открыт"
+  },
+  {
+    "code": "P1005",
+    "eng_desc": "BRAKE BOOSTER VAC TO LOW",
+    "rus_desc": "Вакуумный усилитель тормозов имеет низкий уровень вакуума"
+  },
+  {
+    "code": "P1007",
+    "eng_desc": "PCM DATA LINK PROBLEM",
+    "rus_desc": "Проблема с передачей данных из блока управления"
+  },
+  {
+    "code": "P1037",
+    "eng_desc": "ABS/TCS LOSS OF DATA",
+    "rus_desc": "Блок управления АБС или трансмиссии теряют данные"
+  },
+  {
+    "code": "P1106",
+    "eng_desc": "MAP INTERM. HIGH IN",
+    "rus_desc": "Датчик давления впускного воздуха перемежающийся высокий уровень"
+  },
+  {
+    "code": "P1107",
+    "eng_desc": "MAP INTERM. LOW IN",
+    "rus_desc": "Датчик давления впускного воздуха перемежающийся низкий уровень"
+  },
+  {
+    "code": "P1111",
+    "eng_desc": "INTAKE AIR TEMP INTERM. HIGH INPUT",
+    "rus_desc": "Датчик температуры впускного воздуха перемежающийся высокий уровень"
+  },
+  {
+    "code": "P1112",
+    "eng_desc": "IAT SENSOR INTERM. LOW INPUT",
+    "rus_desc": "Датчик температуры впускного воздуха перемежающийся низкий уровень"
+  },
+  {
+    "code": "P1114",
+    "eng_desc": "ECT INTERM. LOW INPUT",
+    "rus_desc": "Датчик температуры охл. жидкости перемежающийся высокий уровень"
+  },
+  {
+    "code": "P1115",
+    "eng_desc": "ECT INTERM. HIGH INPUT",
+    "rus_desc": "Датчик температуры охл. жидкости перемежающийся низкий уровень"
+  },
+  {
+    "code": "P1121",
+    "eng_desc": "TPS INTERM. HIGH INPUT",
+    "rus_desc": "Датчик положения дросселя перемежающийся высокий уровень"
+  },
+  {
+    "code": "P1122",
+    "eng_desc": "TPS INTERM. LOW INPUT",
+    "rus_desc": "Датчик положения дросселя перемежающийся низкий уровень"
+  },
+  {
+    "code": "P1133",
+    "eng_desc": "ENGINE O2 B1 SI SWITCHING",
+    "rus_desc": "Датчик кислорода «В1» медленно переключается"
+  },
+  {
+    "code": "P1134",
+    "eng_desc": "ENGINE O2 B1 SI RATIO",
+    "rus_desc": "Датчик кислорода «В1» имеет малый рейтинг переключений"
+  },
+  {
+    "code": "P1135",
+    "eng_desc": "ENGINE O2 B1 SI MEAN VOLTS",
+    "rus_desc": "Датчик кислорода «В1» имеет смещение середины сигнала"
+  },
+  {
+    "code": "P1153",
+    "eng_desc": "ENGINE O2 B2 SI SWITCHING",
+    "rus_desc": "Датчик кислорода «В2» медленно переключается"
+  },
+  {
+    "code": "P1154",
+    "eng_desc": "ENGINE O2 B2 SI RATIO",
+    "rus_desc": "Датчик кислорода «В2» имеет малый рейтинг переключений"
+  },
+  {
+    "code": "P1155",
+    "eng_desc": "ENGINE O2 B2 SI MEAN VOLTS",
+    "rus_desc": "Датчик кислорода «В2» имеет смещение середины сигнала"
+  },
+  {
+    "code": "P1257",
+    "eng_desc": "SUPER CHARGER OVER BOOST",
+    "rus_desc": "Нагнетатель создал избыточное давление воздуха"
+  },
+  {
+    "code": "P1274",
+    "eng_desc": "INJECTOR WIRING INCORRECT",
+    "rus_desc": "Провода впрыска подсоединены не правильно"
+  },
+  {
+    "code": "P1350",
+    "eng_desc": "BYPASS LINE MONITOR",
+    "rus_desc": "Аварийная линия управления"
+  },
+  {
+    "code": "P1361",
+    "eng_desc": "EST NO TOGGLE AFT ENABLE",
+    "rus_desc": "«EST» не поворачивается после включения"
+  },
+  {
+    "code": "P1374",
+    "eng_desc": "CRANK LOW RES CORRELATE",
+    "rus_desc": "Относительно низкий уровень сигнала датчика коленчатого вала"
+  },
+  {
+    "code": "P1381",
+    "eng_desc": "ABS SYS ROUGH ROAD DETECT COMM FAIL",
+    "rus_desc": "Датчик неровной дороги системы АБС неисправен"
+  },
+  {
+    "code": "P1406",
+    "eng_desc": "LINEAR EGR PINTLE POSITION ERROR",
+    "rus_desc": "Линейность системы рециркуляции отработанных газов нарушена"
+  },
+  {
+    "code": "P1441",
+    "eng_desc": "EVAPORATIVE SYS OPEN PURGE FLOW",
+    "rus_desc": "Система улавливания паров бензина открыта продувочному потоку"
+  },
+  {
+    "code": "P1442",
+    "eng_desc": "PURGE SOLENOID VAC SWITCH MALFUNCTION",
+    "rus_desc": "Переключатель продувочного соленоида не работает"
+  },
+  {
+    "code": "P1508",
+    "eng_desc": "IDLE CONTROL SYS LOW",
+    "rus_desc": "Система поддержания холостого хода не открывается"
+  },
+  {
+    "code": "P1509",
+    "eng_desc": "IDLE CONTROL SYS HIGH",
+    "rus_desc": "Система поддержания холостого хода не закрывается"
+  },
+  {
+    "code": "P1520",
+    "eng_desc": "PN SWITCH CIRCUIT FAULT",
+    "rus_desc": "Цепь переключателя «PN» неисправна"
+  },
+  {
+    "code": "P1554",
+    "eng_desc": "CRUISE STEPPER MTR LINK FAULT",
+    "rus_desc": "Связь с шаговым мотором круиз-контроля нарушена"
+  },
+  {
+    "code": "P1571",
+    "eng_desc": "TRACTION CNTRL PWM LINK FAULT",
+    "rus_desc": "Связь с антипробуксовочой системой нарушена"
+  },
+  {
+    "code": "P1573",
+    "eng_desc": "TRACTION CNTRL ABS LOST SERIAL DATA",
+    "rus_desc": "Связь с антиблокировочной системой нарушена"
+  },
+  {
+    "code": "P1619",
+    "eng_desc": "OIL CHANGE RESET CIRCUIT FAULT",
+    "rus_desc": "Цепь запроса смены масла неисправна"
+  },
+  {
+    "code": "P1626",
+    "eng_desc": "PASSKEY FUEL ENABLE LOST",
+    "rus_desc": "Ключ разрешения топливоподачи потерян"
+  },
+  {
+    "code": "P1629",
+    "eng_desc": "PASSKEY FREQUENCY INVALID",
+    "rus_desc": "Частота ключа неправильная"
+  },
+  {
+    "code": "P1635",
+    "eng_desc": "VSBA VOLTAGE CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1639",
+    "eng_desc": "VSBB VOLTAGE CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1641",
+    "eng_desc": "ODMA OUTPUT 1 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1642",
+    "eng_desc": "ODMA OUTPUT 2 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1643",
+    "eng_desc": "ODMA OUTPUT 3 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1644",
+    "eng_desc": "ODMA OUTPUT 4 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1645",
+    "eng_desc": "ODMA OUTPUT 5 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1646",
+    "eng_desc": "ODMA OUTPUT 6 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1647",
+    "eng_desc": "ODMA OUTPUT 7 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1651",
+    "eng_desc": "ODMB OUTPUT 1 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1652",
+    "eng_desc": "ODMB OUTPUT 2 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1653",
+    "eng_desc": "ODMB OUTPUT 3 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1654",
+    "eng_desc": "ODMB OUTPUT 4 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1655",
+    "eng_desc": "ODMB OUTPUT 5 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1656",
+    "eng_desc": "ODMB OUTPUT 6 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1657",
+    "eng_desc": "ODMB OUTPUT 7 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1661",
+    "eng_desc": "ODMC OUTPUT 1 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1662",
+    "eng_desc": "ODMC OUTPUT 2 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1663",
+    "eng_desc": "ODMC OUTPUT 3 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1664",
+    "eng_desc": "ODMC OUTPUT 4 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1665",
+    "eng_desc": "ODMC OUTPUT 5 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1666",
+    "eng_desc": "ODMC OUTPUT 6 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1667",
+    "eng_desc": "ODMC OUTPUT 7 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1671",
+    "eng_desc": "ODMD OUTPUT 1 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1672",
+    "eng_desc": "ODMD OUTPUT 2 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1673",
+    "eng_desc": "ODMD OUTPUT 3 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1674",
+    "eng_desc": "ODMD OUTPUT 4 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1675",
+    "eng_desc": "ODMD OUTPUT 5 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1676",
+    "eng_desc": "ODMD OUTPUT 6 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1677",
+    "eng_desc": "ODMD OUTPUT 7 CIRCUIT FAULT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1801",
+    "eng_desc": "SELECT SWITCH PERFORM FAULT (HMD)",
+    "rus_desc": "Переключатель режима работы неисправен"
+  },
+  {
+    "code": "P1810",
+    "eng_desc": "PSS MANIFOLD MALFUNCTION",
+    "rus_desc": "«PSS» трубопровод неисправен"
+  },
+  {
+    "code": "P1811",
+    "eng_desc": "MAX ADAPT & LONG SHIFT (HMD)",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1812",
+    "eng_desc": "TRANS (HMD) HOT",
+    "rus_desc": "Трансмиссия перегрета"
+  },
+  {
+    "code": "P1814",
+    "eng_desc": "TORQUE CONVERTER OVER STRESSED",
+    "rus_desc": "Сцепление перегружено (ударная нагрузка)"
+  },
+  {
+    "code": "P1860",
+    "eng_desc": "TCC PWM SOLENOID CIRCUIT (HMD)",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1864",
+    "eng_desc": "TCC SOLENOID CIRCUIT (HMD)",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1870",
+    "eng_desc": "TRANSM COMPONENT SUPPING (HMD)",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "P1871",
+    "eng_desc": "GEAR RATIO UNDEFINED",
+    "rus_desc": "Передача не определена"
+  },
+  {
+    "code": "P1886",
+    "eng_desc": "3 TO 2 SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида переключения с 3-ей на 2-ю передачи неисправна"
+  },
+  {
+    "code": "P1889",
+    "eng_desc": "3RD CLUTCH SWITCH PRESS SWITCH (HMD)",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0100",
+    "eng_desc": "DRIVER AIR BAG CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь надувной подушки безопасности водителя неисправна"
+  },
+  {
+    "code": "B0101",
+    "eng_desc": "DRIVER AIR BAG CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи надувной подушки выходит за доп. диапазон"
+  },
+  {
+    "code": "B0102",
+    "eng_desc": "DRIVER AIR BAG CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в низком положении"
+  },
+  {
+    "code": "B0103",
+    "eng_desc": "DRIVER AIR BAG CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в высоком положении"
+  },
+  {
+    "code": "B0105",
+    "eng_desc": "PASSENGER AIR BAG CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь надувной подушки безопасности пассажира неисправна"
+  },
+  {
+    "code": "B0106",
+    "eng_desc": "PASSENGER AIR BAG CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи надувной подушки выходит за доп. диапазон"
+  },
+  {
+    "code": "B0107",
+    "eng_desc": "PASSENGER AIR BAG CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в низком положении"
+  },
+  {
+    "code": "B0108",
+    "eng_desc": "PASSENGER AIR BAG CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в высоком положении"
+  },
+  {
+    "code": "B0110",
+    "eng_desc": "DRVR-SIDE AIR BAG CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь надувной боковой подушки без. водителя неисправна"
+  },
+  {
+    "code": "B0111",
+    "eng_desc": "DRVR-SIDE AIR BAG CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи надувной подушки выходит за доп. диапазон"
+  },
+  {
+    "code": "B0112",
+    "eng_desc": "DRVR-SIDE AIR BAG CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в низком положении"
+  },
+  {
+    "code": "B0113",
+    "eng_desc": "DRVR-SIDE AIR BAG CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в высоком положении"
+  },
+  {
+    "code": "B0115",
+    "eng_desc": "PSNGR-SIDE AIR BAG CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь надувной боковой подушки без. пассажира неисправна"
+  },
+  {
+    "code": "B0116",
+    "eng_desc": "PSNGR-SIDE AIR BAG CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи надувной подушки выходит за доп. диапазон"
+  },
+  {
+    "code": "B0117",
+    "eng_desc": "PSNGR-SIDE AIR BAG CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в низком положении"
+  },
+  {
+    "code": "B0118",
+    "eng_desc": "PSNGR-SIDE AIR BAG CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи надувной подушки всегда в высоком положении"
+  },
+  {
+    "code": "B0120",
+    "eng_desc": "SEATBELT #1 SW MON. CIRCUIT MALFUNCTION",
+    "rus_desc": "Защелка ремня безопасности №1 неисправна"
+  },
+  {
+    "code": "B0121",
+    "eng_desc": "SEATBELT #1 SW MON. CIRCUIT RANGE/PERF",
+    "rus_desc": "Защелка ремня безопасности №1 работает медленно"
+  },
+  {
+    "code": "B0122",
+    "eng_desc": "SEATBELT #1 SW MON. CIRCUIT LOW INPUT",
+    "rus_desc": "Защелка ремня безопасности №1 имеет низкий вход"
+  },
+  {
+    "code": "B0123",
+    "eng_desc": "SEATBELT #1 SW MON. CIRCUIT HIGH INPUT",
+    "rus_desc": "Защелка ремня безопасности №1 имеет высокий вход"
+  },
+  {
+    "code": "B0125",
+    "eng_desc": "SEATBELT #2 SW MON. CIRCUIT MALFUNCTION",
+    "rus_desc": "Защелка ремня безопасности №2 неисправна"
+  },
+  {
+    "code": "B0126",
+    "eng_desc": "SEATBELT #2 SW MON. CIRCUIT RANGE/PERF",
+    "rus_desc": "Защелка ремня безопасности №2 работает медленно"
+  },
+  {
+    "code": "B0127",
+    "eng_desc": "SEATBELT #2 SW MON. CIRCUIT LOW INPUT",
+    "rus_desc": "Защелка ремня безопасности №2 имеет низкий вход"
+  },
+  {
+    "code": "B0128",
+    "eng_desc": "SEATBELT #2 SW MON. CIRCUIT HIGH INPUT",
+    "rus_desc": "Защелка ремня безопасности №2 имеет высокий вход"
+  },
+  {
+    "code": "B0130",
+    "eng_desc": "SEATBELT #1 RETRACT CIRCUIT MALFUNCTION",
+    "rus_desc": "Механизм натяжения ремня безопасности №1 неисправен"
+  },
+  {
+    "code": "B0131",
+    "eng_desc": "SEATBELT #1 RETRACT CIRCUIT RANGE/PERF",
+    "rus_desc": "Механизм натяжения ремня безопасности №1 работает медленно"
+  },
+  {
+    "code": "B0132",
+    "eng_desc": "SEATBELT #1 RETRACT CIRCUIT LOW INPUT",
+    "rus_desc": "Механизм натяжения ремня безопасности №1 имеет низкий вход"
+  },
+  {
+    "code": "B0133",
+    "eng_desc": "SEATBELT #1 RETRACT CIRCUIT HIGH INPUT",
+    "rus_desc": "Механизм натяжения ремня безопасности №1 имеет высокий вход"
+  },
+  {
+    "code": "B0135",
+    "eng_desc": "SEATBELT #2 RETRACT CIRCUIT MALFUNCTION",
+    "rus_desc": "Механизм натяжения ремня безопасности №2 неисправен"
+  },
+  {
+    "code": "B0136",
+    "eng_desc": "SEATBELT #2 RETRACT CIRCUIT RANGE/PERF",
+    "rus_desc": "Механизм натяжения ремня безопасности №2 работает медленно"
+  },
+  {
+    "code": "B0137",
+    "eng_desc": "SEATBELT #2 RETRACT CIRCUIT LOW INPUT",
+    "rus_desc": "Механизм натяжения ремня безопасности №2 имеет низкий вход"
+  },
+  {
+    "code": "B0138",
+    "eng_desc": "SEATBELT #2 RETRACT CIRCUIT HIGH INPUT",
+    "rus_desc": "Механизм натяжения ремня безопасности №2 имеет высокий вход"
+  },
+  {
+    "code": "B0300",
+    "eng_desc": "COOLING FAN #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь вентилятора охлаждения №1 не работает"
+  },
+  {
+    "code": "B0301",
+    "eng_desc": "COOLING FAN #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь вентилятора охлаждения №1 работает медленно"
+  },
+  {
+    "code": "B0302",
+    "eng_desc": "COOLING FAN #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь вентилятора охлаждения №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0303",
+    "eng_desc": "COOLING FAN #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь вентилятора охлаждения №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0305",
+    "eng_desc": "COOLING FAN #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь вентилятора охлаждения №2 не работает"
+  },
+  {
+    "code": "B0306",
+    "eng_desc": "COOLING FAN #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь вентилятора охлаждения №2 работает медленно"
+  },
+  {
+    "code": "B0307",
+    "eng_desc": "COOLING FAN #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь вентилятора охлаждения №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0308",
+    "eng_desc": "COOLING FAN #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь вентилятора охлаждения №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0310",
+    "eng_desc": "A/C CLUTCH CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь включения кондиционера неисправна"
+  },
+  {
+    "code": "B0311",
+    "eng_desc": "A/C CLUTCH CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь включения кондиционера работает медленно"
+  },
+  {
+    "code": "B0312",
+    "eng_desc": "A/C CLUTCH CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь включения кондиционера имеет низкий сигнал"
+  },
+  {
+    "code": "B0313",
+    "eng_desc": "A/C CLUTCH CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь включения кондиционера имеет высокий сигнал"
+  },
+  {
+    "code": "B0315",
+    "eng_desc": "A/C PRESSURE #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь компрессора кондиционера №1 неисправна"
+  },
+  {
+    "code": "B0316",
+    "eng_desc": "A/C PRESSURE #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь компрессора кондиционера №1 работает медленно"
+  },
+  {
+    "code": "B0317",
+    "eng_desc": "A/C PRESSURE #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь компрессора кондиционера №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0318",
+    "eng_desc": "A/C PRESSURE #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь компрессора кондиционера №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0320",
+    "eng_desc": "A/C PRESSURE #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь компрессора кондиционера №2 неисправна"
+  },
+  {
+    "code": "B0321",
+    "eng_desc": "A/C PRESSURE #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь компрессора кондиционера №2 работает медленно"
+  },
+  {
+    "code": "B0322",
+    "eng_desc": "A/C PRESSURE #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь компрессора кондиционера №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0323",
+    "eng_desc": "A/C PRESSURE #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь компрессора кондиционера №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0325",
+    "eng_desc": "A/C PRESS REF (SIG) CIRCUIT MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0326",
+    "eng_desc": "A/C PRESS REF (SIG) CIRCUIT RANGE/PERF",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0327",
+    "eng_desc": "A/C PRESS REF (SIG) CIRCUIT LOW INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0328",
+    "eng_desc": "A/C PRESS REF (SIG) CIRCUIT HIGH INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0330",
+    "eng_desc": "OUTSIDE AIR TEMP CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры внешнего воздуха неисправна"
+  },
+  {
+    "code": "B0331",
+    "eng_desc": "OUTSIDE AIR TEMP CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика температуры работает медленно"
+  },
+  {
+    "code": "B0332",
+    "eng_desc": "OUTSIDE AIR TEMP CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика температуры имеет низкий сигнал"
+  },
+  {
+    "code": "B0333",
+    "eng_desc": "OUTSIDE AIR TEMP CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика температуры имеет высокий сигнал"
+  },
+  {
+    "code": "B0335",
+    "eng_desc": "IN AIR TEMP SENS #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры внутреннего воздуха №1 неисправ."
+  },
+  {
+    "code": "B0336",
+    "eng_desc": "IN AIR TEMP SENS #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика температуры №1 работает медленно"
+  },
+  {
+    "code": "B0337",
+    "eng_desc": "IN AIR TEMP SENS #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика температуры №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0338",
+    "eng_desc": "IN AIR TEMP SENS #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика температуры №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0340",
+    "eng_desc": "IN AIR TEMP SENS #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика температуры внутреннего воздуха №2 неисправ."
+  },
+  {
+    "code": "B0341",
+    "eng_desc": "IN AIR TEMP SENS #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика температуры №2 работает медленно"
+  },
+  {
+    "code": "B0342",
+    "eng_desc": "IN AIR TEMP SENS #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика температуры №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0343",
+    "eng_desc": "IN AIR TEMP SENS #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика температуры №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0345",
+    "eng_desc": "SOLAR LOAD SENSOR 1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика освещенности (солнечных батарей) №1 неиспр."
+  },
+  {
+    "code": "B0346",
+    "eng_desc": "SOLAR LOAD SENSOR 1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика освещенности №1 работает медленно"
+  },
+  {
+    "code": "B0347",
+    "eng_desc": "SOLAR LOAD SENSOR 1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика освещенности №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0348",
+    "eng_desc": "SOLAR LOAD SENSOR 1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика освещенности №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0350",
+    "eng_desc": "SOLAR LOAD SENSOR 2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика освещенности (солнечных батарей) №2 неиспр."
+  },
+  {
+    "code": "B0351",
+    "eng_desc": "SOLAR LOAD SENSOR 2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика освещенности №2 работает медленно"
+  },
+  {
+    "code": "B0352",
+    "eng_desc": "SOLAR LOAD SENSOR 2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика освещенности №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0353",
+    "eng_desc": "SOLAR LOAD SENSOR 2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика освещенности №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0355",
+    "eng_desc": "BLOWER MTR #1 SPEED CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь управления скоростью вентилятора №1 неисправна"
+  },
+  {
+    "code": "B0356",
+    "eng_desc": "BLOWER MTR #1 SPEED CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь управления вентилятора №1 работает медленно"
+  },
+  {
+    "code": "B0357",
+    "eng_desc": "BLOWER MTR #1 SPEED CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь управления вентилятора №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0358",
+    "eng_desc": "BLOWER MTR #1 SPEED CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь управления вентилятора №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0360",
+    "eng_desc": "BLOWER MTR #1 POWER CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь питания вентилятора №1 неисправна"
+  },
+  {
+    "code": "B0361",
+    "eng_desc": "BLOWER MTR #1 POWER CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь питания вентилятора №1 выходит за доп. диапазон"
+  },
+  {
+    "code": "B0362",
+    "eng_desc": "BLOWER MTR #1 POWER CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь питания вентилятора №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0363",
+    "eng_desc": "BLOWER MTR #1 POWER CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь питания вентилятора №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0365",
+    "eng_desc": "BLOWER MTR #1 GND CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь заземления вентилятора №1 неисправна"
+  },
+  {
+    "code": "B0366",
+    "eng_desc": "BLOWER MTR #1 GND CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь заземления вентилятора №1 выходит за доп. диапазон"
+  },
+  {
+    "code": "B0367",
+    "eng_desc": "BLOWER MTR #1 GND CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь заземления вентилятора №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0368",
+    "eng_desc": "BLOWER MTR #1 GND CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь заземления вентилятора №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0370",
+    "eng_desc": "A/C HIGH SIDE TEMP SENSOR MALFUNCTION",
+    "rus_desc": "Датчик температуры высшей точки кондиционера неисправен"
+  },
+  {
+    "code": "B0371",
+    "eng_desc": "A/C HIGH SIDE TEMP SENSOR RANGE/PERF",
+    "rus_desc": "Сигнал датчика температуры выходит за допустимый диапазон"
+  },
+  {
+    "code": "B0372",
+    "eng_desc": "A/C HIGH SIDE TEMP SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика температуры имеет низкий уровень"
+  },
+  {
+    "code": "B0373",
+    "eng_desc": "A/C HIGH SIDE TEMP SENSOR HIGH INPUT",
+    "rus_desc": "Сигнал датчика температуры имеет высокий уровень"
+  },
+  {
+    "code": "B0375",
+    "eng_desc": "A/C EVAP INLET TEMP SENSOR MALFUNCTION",
+    "rus_desc": "Датчик температуры на входе вент. кондиц. неисправен"
+  },
+  {
+    "code": "B0376",
+    "eng_desc": "A/C EVAP INLET TEMP SENSOR RANGE/PERF",
+    "rus_desc": "Сигнал датчика температуры выходит за допустимый диапазон"
+  },
+  {
+    "code": "B0377",
+    "eng_desc": "A/C EVAP INLET TEMP SENSOR LOW INPUT",
+    "rus_desc": "Сигнал датчика температуры имеет низкий уровень"
+  },
+  {
+    "code": "B0378",
+    "eng_desc": "A/C EVAP INLET TEMP SENSOR HIGH INPUT",
+    "rus_desc": "Сигнал датчика температуры имеет высокий уровень"
+  },
+  {
+    "code": "B0380",
+    "eng_desc": "A/C REFRIGERANT UNDERPRESSURE",
+    "rus_desc": "Давление хладагента кондиционера недостаточно"
+  },
+  {
+    "code": "B0381",
+    "eng_desc": "A/C REFRIGERANT OVERPRESSURE",
+    "rus_desc": "Давление хладагента кондиционера избыточно"
+  },
+  {
+    "code": "B0400",
+    "eng_desc": "AIR FLOW CONTROL #1 DEFROST MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком размораживателя №1 неисправно"
+  },
+  {
+    "code": "B0401",
+    "eng_desc": "AIR FLOW CONTROL #1 DEFROST RANGE/PERF",
+    "rus_desc": "Упр. размораживателя №1 работает медленно"
+  },
+  {
+    "code": "B0402",
+    "eng_desc": "AIR FLOW CONTROL #1 DEFROST LOW INPUT",
+    "rus_desc": "Упр. размораживателя №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0403",
+    "eng_desc": "AIR FLOW CONTROL #1 DEFROST HIGH INPUT",
+    "rus_desc": "Упр. размораживателя №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0405",
+    "eng_desc": "AIR FLOW CONTROL #2 HEATER MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком нагревателя №2 неисправно"
+  },
+  {
+    "code": "B0406",
+    "eng_desc": "AIR FLOW CONTROL #2 HEATER RANGE/PERF",
+    "rus_desc": "Упр. нагревателя №2 работает медленно"
+  },
+  {
+    "code": "B0407",
+    "eng_desc": "AIR FLOW CONTROL #2 HEATER LOW INPUT",
+    "rus_desc": "Упр. нагревателя №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0408",
+    "eng_desc": "AIR FLOW CONTROL #2 HEATER HIGH INPUT",
+    "rus_desc": "Упр. нагревателя №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0410",
+    "eng_desc": "AIR FLOW CONTROL #3 BLEND MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком смесителя №3 неисправно"
+  },
+  {
+    "code": "B0411",
+    "eng_desc": "AIR FLOW CONTROL #3 BLEND RANGE/PERF",
+    "rus_desc": "Упр. смесителя №3 работает медленно"
+  },
+  {
+    "code": "B0412",
+    "eng_desc": "AIR FLOW CONTROL #3 BLEND LOW INPUT",
+    "rus_desc": "Упр. смесителя №3 имеет низкий сигнал"
+  },
+  {
+    "code": "B0413",
+    "eng_desc": "AIR FLOW CONTROL #3 BLEND HIGH INPUT",
+    "rus_desc": "Упр. смесителя №3 имеет высокий сигнал"
+  },
+  {
+    "code": "B0415",
+    "eng_desc": "AIR FLOW CONTROL #4 VENT MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком вентиляции №4 неисправно"
+  },
+  {
+    "code": "B0416",
+    "eng_desc": "AIR FLOW CONTROL #4 VENT RANGE/PERF",
+    "rus_desc": "Упр. вентиляции №4 работает медленно"
+  },
+  {
+    "code": "B0417",
+    "eng_desc": "AIR FLOW CONTROL #4 VENT LOW INPUT",
+    "rus_desc": "Упр. вентиляции №4 имеет низкий сигнал"
+  },
+  {
+    "code": "B0418",
+    "eng_desc": "AIR FLOW CONTROL #4 VENT HIGH INPUT",
+    "rus_desc": "Упр. вентиляции №4 имеет высокий сигнал"
+  },
+  {
+    "code": "B0420",
+    "eng_desc": "AIR FLOW CONTROL #5 A/C MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком кондиционирования №5 неисправно"
+  },
+  {
+    "code": "B0421",
+    "eng_desc": "AIR FLOW CONTROL #5 A/C RANGE/PERF",
+    "rus_desc": "Упр. кондиционирования №5 работает медленно"
+  },
+  {
+    "code": "B0422",
+    "eng_desc": "AIR FLOW CONTROL #5 A/C LOW INPUT",
+    "rus_desc": "Упр. кондиционирования №5 имеет низкий сигнал"
+  },
+  {
+    "code": "B0423",
+    "eng_desc": "AIR FLOW CONTROL #5 A/C HIGH INPUT",
+    "rus_desc": "Упр. кондиционирования №5 имеет высокий сигнал"
+  },
+  {
+    "code": "B0425",
+    "eng_desc": "AIR FLOW CONTROL #6 RECIRC MALFUNCTION",
+    "rus_desc": "Упр. воздушным потоком рециркуляции №6 неисправно"
+  },
+  {
+    "code": "B0426",
+    "eng_desc": "AIR FLOW CONTROL #6 RECIRC RANGE/PERF",
+    "rus_desc": "Упр. рециркуляции №6 работает медленно"
+  },
+  {
+    "code": "B0427",
+    "eng_desc": "AIR FLOW CONTROL #6 RECIRC LOW INPUT",
+    "rus_desc": "Упр. рециркуляции №6 имеет низкий сигнал"
+  },
+  {
+    "code": "B0428",
+    "eng_desc": "AIR FLOW CONTROL #6 RECIRC HIGH INPUT",
+    "rus_desc": "Упр. рециркуляции №6 имеет высокий сигнал"
+  },
+  {
+    "code": "B0430",
+    "eng_desc": "REAR DEFROST CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь размораживателя заднего стекла неисправна"
+  },
+  {
+    "code": "B0431",
+    "eng_desc": "REAR DEFROST CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь размораживателя заднего стекла работает медленно"
+  },
+  {
+    "code": "B0432",
+    "eng_desc": "REAR DEFROST CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь размораживателя заднего стекла имеет низкий сигнал"
+  },
+  {
+    "code": "B0433",
+    "eng_desc": "REAR DEFROST CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь размораживателя заднего стекла имеет высокий сигнал"
+  },
+  {
+    "code": "B0435",
+    "eng_desc": "A/C REQUEST CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь запроса включения кондиционера неисправна"
+  },
+  {
+    "code": "B0436",
+    "eng_desc": "A/C REQUEST CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь запроса включения кондиционера работает медленно"
+  },
+  {
+    "code": "B0437",
+    "eng_desc": "A/C REQUEST CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь запроса включения кондиционера имеет низкий сигнал"
+  },
+  {
+    "code": "B0438",
+    "eng_desc": "A/C REQUEST CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь запроса включения кондиционера"
+  },
+  {
+    "code": "B0440",
+    "eng_desc": "CONTROL HEAD #1 FEEDBACK MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0441",
+    "eng_desc": "CONTROL HEAD #1 FEEDBACK RANGE/PERF",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0442",
+    "eng_desc": "CONTROL HEAD #1 FEEDBACK LOW INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0443",
+    "eng_desc": "CONTROL HEAD #1 FEEDBACK HIGH INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0445",
+    "eng_desc": "CONTROL HEAD #2 FEEDBACK MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0446",
+    "eng_desc": "CONTROL HEAD #2 FEEDBACK RANGE/PERF",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0447",
+    "eng_desc": "CONTROL HEAD #2 FEEDBACK LOW INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0448",
+    "eng_desc": "CONTROL HEAD #2 FEEDBACK HIGH INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "B0500",
+    "eng_desc": "RH TURN SIGNAL CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого указателя поворота неисправна"
+  },
+  {
+    "code": "B0501",
+    "eng_desc": "RH TURN SIGNAL CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого указателя поворота работает медленно"
+  },
+  {
+    "code": "B0502",
+    "eng_desc": "RH TURN SIGNAL CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого указателя поворота имеет низкий сигнал"
+  },
+  {
+    "code": "B0503",
+    "eng_desc": "RH TURN SIGNAL CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого указателя поворота имеет высокий сигнал"
+  },
+  {
+    "code": "B0505",
+    "eng_desc": "LH TURN SIGNAL CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого указателя поворота неисправна"
+  },
+  {
+    "code": "B0506",
+    "eng_desc": "LH TURN SIGNAL CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого указателя поворота работает медленно"
+  },
+  {
+    "code": "B0507",
+    "eng_desc": "LH TURN SIGNAL CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого указателя поворота имеет низкий сигнал"
+  },
+  {
+    "code": "B0508",
+    "eng_desc": "LH TURN SIGNAL CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого указателя поворота имеет высокий сигнал"
+  },
+  {
+    "code": "B0510",
+    "eng_desc": "HEADLAMP INDICATORS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь индикатора головного освещения неисправна"
+  },
+  {
+    "code": "B0511",
+    "eng_desc": "HEADLAMP INDICATORS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь индикатора головного освещения работает медленно"
+  },
+  {
+    "code": "B0512",
+    "eng_desc": "HEADLAMP INDICATORS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь индикатора головного освещения имеет низкий сигнал"
+  },
+  {
+    "code": "B0513",
+    "eng_desc": "HEADLAMP INDICATORS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь индикатора головного освещения имеет высокий сигнал"
+  },
+  {
+    "code": "B0515",
+    "eng_desc": "SPEEDOMETER CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь спидометра неисправна"
+  },
+  {
+    "code": "B0516",
+    "eng_desc": "SPEEDOMETER CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь спидометра работает медленно"
+  },
+  {
+    "code": "B0517",
+    "eng_desc": "SPEEDOMETER CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь спидометра имеет низкий сигнал"
+  },
+  {
+    "code": "B0518",
+    "eng_desc": "SPEEDOMETER CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь спидометра имеет высокий сигнал"
+  },
+  {
+    "code": "B0520",
+    "eng_desc": "TACHOMETER CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь тахометра неисправна"
+  },
+  {
+    "code": "B0521",
+    "eng_desc": "TACHOMETER CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь тахометра работает медленно"
+  },
+  {
+    "code": "B0522",
+    "eng_desc": "TACHOMETER CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь тахометра имеет низкий сигнал"
+  },
+  {
+    "code": "B0523",
+    "eng_desc": "TACHOMETER CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь тахометра имеет высокий сигнал"
+  },
+  {
+    "code": "B0525",
+    "eng_desc": "TEMPERATURE GAUGES CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь измерителей температуры неисправна"
+  },
+  {
+    "code": "B0526",
+    "eng_desc": "TEMPERATURE GAUGES CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь измерителей температуры работает медленно"
+  },
+  {
+    "code": "B0527",
+    "eng_desc": "TEMPERATURE GAUGES CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь измерителей температуры имеет низкий сигнал"
+  },
+  {
+    "code": "B0528",
+    "eng_desc": "TEMPERATURE GAUGES CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь измерителей температуры имеет высокий сигнал"
+  },
+  {
+    "code": "B0530",
+    "eng_desc": "FUEL LEVEL GAUGE CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь измерителя уровня топлива неисправна"
+  },
+  {
+    "code": "B0531",
+    "eng_desc": "FUEL LEVEL GAUGE CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь измерителя уровня топлива работает медленно"
+  },
+  {
+    "code": "B0532",
+    "eng_desc": "FUEL LEVEL GAUGE CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь измерителя уровня топлива имеет низкий сигнал"
+  },
+  {
+    "code": "B0533",
+    "eng_desc": "FUEL LEVEL GAUGE CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь измерителя уровня топлива имеет высокий сигнал"
+  },
+  {
+    "code": "B0535",
+    "eng_desc": "TURBO/SUPER BOOST GAUGE MALFUNCTION",
+    "rus_desc": "Измеритель турбо/супер наддува неисправен"
+  },
+  {
+    "code": "B0536",
+    "eng_desc": "TURBO/SUPER BOOST GAUGE RANGE/PERF",
+    "rus_desc": "Измеритель турбо/супер наддува работает медленно"
+  },
+  {
+    "code": "B0537",
+    "eng_desc": "TURBO/SUPER BOOST GAUGE LOW INPUT",
+    "rus_desc": "Измеритель турбо/супер наддува имеет низкий сигнал"
+  },
+  {
+    "code": "B0538",
+    "eng_desc": "TURBO/SUPER BOOST GAUGE HIGH INPUT",
+    "rus_desc": "Измеритель турбо/супер наддува имеет высокий сигнал"
+  },
+  {
+    "code": "B0540",
+    "eng_desc": "FASTEN SEATBELT INDICATOR MALFUNCTION",
+    "rus_desc": "Индикатор защелкивания ремня безопасности неисправен"
+  },
+  {
+    "code": "B0541",
+    "eng_desc": "FASTEN SEATBELT INDICATOR RANGE/PERF",
+    "rus_desc": "Индикатор защелкивания ремня безопасности работает медленно"
+  },
+  {
+    "code": "B0542",
+    "eng_desc": "FASTEN SEATBELT INDICATOR LOW INPUT",
+    "rus_desc": "Индикатор защелкивания ремня безопасности имеет низкий сигнал"
+  },
+  {
+    "code": "B0543",
+    "eng_desc": "FASTEN SEATBELT INDICATOR HIGH INPUT",
+    "rus_desc": "Индикатор защелкивания ремня безопасности имеет выс. сигнал"
+  },
+  {
+    "code": "B0545",
+    "eng_desc": "DOOR AJAR #1 INDICATOR MALFUNCTION",
+    "rus_desc": "Индикатор приоткрытой двери №1 неисправен"
+  },
+  {
+    "code": "B0546",
+    "eng_desc": "DOOR AJAR #1 INDICATOR RANGE/PERF",
+    "rus_desc": "Индикатор приоткрытой двери №1 работает медленно"
+  },
+  {
+    "code": "B0547",
+    "eng_desc": "DOOR AJAR #1 INDICATOR LOW INPUT",
+    "rus_desc": "Индикатор приоткрытой двери №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0548",
+    "eng_desc": "DOOR AJAR #1 INDICATOR HIGH INPUT",
+    "rus_desc": "Индикатор приоткрытой двери №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0550",
+    "eng_desc": "DOOR AJAR #2 INDICATOR MALFUNCTION",
+    "rus_desc": "Индикатор приоткрытой двери №2 неисправен"
+  },
+  {
+    "code": "B0551",
+    "eng_desc": "DOOR AJAR #2 INDICATOR RANGE/PERF",
+    "rus_desc": "Индикатор приоткрытой двери №2 работает медленно"
+  },
+  {
+    "code": "B0552",
+    "eng_desc": "DOOR AJAR #2 INDICATOR LOW INPUT",
+    "rus_desc": "Индикатор приоткрытой двери №2 имеет низкий сигнал"
+  },
+  {
+    "code": "B0553",
+    "eng_desc": "DOOR AJAR #2 INDICATOR HIGH INPUT",
+    "rus_desc": "Индикатор приоткрытой двери №2 имеет высокий сигнал"
+  },
+  {
+    "code": "B0555",
+    "eng_desc": "BRAKE INDICATOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь индикатора торможения неисправна"
+  },
+  {
+    "code": "B0556",
+    "eng_desc": "BRAKE INDICATOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь индикатора торможения работает медленно"
+  },
+  {
+    "code": "B0557",
+    "eng_desc": "BRAKE INDICATOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь индикатора торможения имеет низкий сигнал"
+  },
+  {
+    "code": "B0558",
+    "eng_desc": "BRAKE INDICATOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь индикатора торможения имеет высокий сигнал"
+  },
+  {
+    "code": "B0560",
+    "eng_desc": "AIR BAG LAMP #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь лампы воздушной подушки №1 неисправна"
+  },
+  {
+    "code": "B0561",
+    "eng_desc": "AIR BAG LAMP #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь лампы воздушной подушки №1 работает медленно"
+  },
+  {
+    "code": "B0562",
+    "eng_desc": "AIR BAG LAMP #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь лампы воздушной подушки №1 имеет низкий сигнал"
+  },
+  {
+    "code": "B0563",
+    "eng_desc": "AIR BAG LAMP #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь лампы воздушной подушки №1 имеет высокий сигнал"
+  },
+  {
+    "code": "B0565",
+    "eng_desc": "SECURITY OP INFO CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь информации о секретных опциях неисправна"
+  },
+  {
+    "code": "B0566",
+    "eng_desc": "SECURITY OP INFO CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь информации о секретных опциях работает медленно"
+  },
+  {
+    "code": "B0567",
+    "eng_desc": "SECURITY OP INFO CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь информации о секретных опциях имеет низкий сигнал"
+  },
+  {
+    "code": "B0568",
+    "eng_desc": "SECURITY OP INFO CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь информации о секретных опциях имеет высокий сигнал"
+  },
+  {
+    "code": "B0600",
+    "eng_desc": "OPTION CONFIG ERROR",
+    "rus_desc": "Конфигурация опций ошибочна"
+  },
+  {
+    "code": "B0601",
+    "eng_desc": "KAM RESET",
+    "rus_desc": "Сброс «КАМ» датчика"
+  },
+  {
+    "code": "B0602",
+    "eng_desc": "OSC WATCHDOG COP MALFUNCTION",
+    "rus_desc": "Генератор, управляющий системой «WATCHDOG», неисправен"
+  },
+  {
+    "code": "B0603",
+    "eng_desc": "EEPROM WRITE ERROR",
+    "rus_desc": "Ошибка записи в постоянное запоминающее устройство (ПЗУ)"
+  },
+  {
+    "code": "B0604",
+    "eng_desc": "EEPROM CALIBRATION ERROR",
+    "rus_desc": "Ошибка ПЗУ калибровок"
+  },
+  {
+    "code": "B0605",
+    "eng_desc": "EEPROM CHECKSUM ERROR",
+    "rus_desc": "Ошибка контрольной суммы ПЗУ"
+  },
+  {
+    "code": "B0606",
+    "eng_desc": "RAM MALFUNCTION",
+    "rus_desc": "Оперативное запоминающее устройство неисправно"
+  },
+  {
+    "code": "B0607",
+    "eng_desc": "INTERNAL ERROR",
+    "rus_desc": "Внутренняя ошибка"
+  },
+  {
+    "code": "B0608",
+    "eng_desc": "INITIALIZATION ERROR",
+    "rus_desc": "Ошибка инициализации"
+  },
+  {
+    "code": "B0800",
+    "eng_desc": "DEVICE POWER #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь блока питания №1 неисправна"
+  },
+  {
+    "code": "B0801",
+    "eng_desc": "DEVICE POWER #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи блока питания №1 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0802",
+    "eng_desc": "DEVICE POWER #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи блока питания №1 всегда низкого уровня"
+  },
+  {
+    "code": "B0803",
+    "eng_desc": "DEVICE POWER #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи блока питания №1 всегда высокого уровня"
+  },
+  {
+    "code": "B0805",
+    "eng_desc": "DEVICE POWER #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь блока питания №2 неисправна"
+  },
+  {
+    "code": "B0806",
+    "eng_desc": "DEVICE POWER #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи блока питания №2 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0807",
+    "eng_desc": "DEVICE POWER #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи блока питания №2 всегда низкого уровня"
+  },
+  {
+    "code": "B0808",
+    "eng_desc": "DEVICE POWER #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи блока питания №2 всегда высокого уровня"
+  },
+  {
+    "code": "B0810",
+    "eng_desc": "DEVICE POWER #3 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь блока питания №3 неисправна"
+  },
+  {
+    "code": "B0811",
+    "eng_desc": "DEVICE POWER #3 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи блока питания №3 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0812",
+    "eng_desc": "DEVICE POWER #3 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи блока питания №3 всегда низкого уровня"
+  },
+  {
+    "code": "B0813",
+    "eng_desc": "DEVICE POWER #3 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи блока питания №3 всегда высокого уровня"
+  },
+  {
+    "code": "B0815",
+    "eng_desc": "DEVICE GROUND #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь заземления устройств №1 неисправна"
+  },
+  {
+    "code": "B0816",
+    "eng_desc": "DEVICE GROUND #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи заземления №1 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0817",
+    "eng_desc": "DEVICE GROUND #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи заземления №1 всегда низкого уровня"
+  },
+  {
+    "code": "B0818",
+    "eng_desc": "DEVICE GROUND #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи заземления №1 всегда высокого уровня"
+  },
+  {
+    "code": "B0820",
+    "eng_desc": "DEVICE GROUND #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь заземления устройств №2 неисправна"
+  },
+  {
+    "code": "B0821",
+    "eng_desc": "DEVICE GROUND #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи заземления №2 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0822",
+    "eng_desc": "DEVICE GROUND #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи заземления №2 всегда низкого уровня"
+  },
+  {
+    "code": "B0823",
+    "eng_desc": "DEVICE GROUND #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи заземления №2 всегда высокого уровня"
+  },
+  {
+    "code": "B0825",
+    "eng_desc": "DEVICE GROUND #3 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь заземления устройств №3 неисправна"
+  },
+  {
+    "code": "B0826",
+    "eng_desc": "DEVICE GROUND #3 CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал цепи заземления №3 выходит за допустимые пределы"
+  },
+  {
+    "code": "B0827",
+    "eng_desc": "DEVICE GROUND #3 CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал цепи заземления №3 всегда низкого уровня"
+  },
+  {
+    "code": "B0828",
+    "eng_desc": "DEVICE GROUND #3 CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал цепи заземления №3 всегда высокого уровня"
+  },
+  {
+    "code": "B0830",
+    "eng_desc": "IGNITION 0 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь зажигания 0 неисправна"
+  },
+  {
+    "code": "B0831",
+    "eng_desc": "IGNITION 0 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь зажигания 0 работает медленно"
+  },
+  {
+    "code": "B0832",
+    "eng_desc": "IGNITION 0 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь зажигания 0 имеет низкий уровень"
+  },
+  {
+    "code": "B0833",
+    "eng_desc": "IGNITION 0 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь зажигания 0 имеет высокий уровень"
+  },
+  {
+    "code": "B0835",
+    "eng_desc": "IGNITION 1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь зажигания 1 неисправна"
+  },
+  {
+    "code": "B0836",
+    "eng_desc": "IGNITION 1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь зажигания 1 работает медленно"
+  },
+  {
+    "code": "B0837",
+    "eng_desc": "IGNITION 1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь зажигания 1 имеет низкий уровень"
+  },
+  {
+    "code": "B0838",
+    "eng_desc": "IGNITION 1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь зажигания 1 имеет высокий уровень"
+  },
+  {
+    "code": "B0840",
+    "eng_desc": "IGNITION 3 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь зажигания 3 неисправна"
+  },
+  {
+    "code": "B0841",
+    "eng_desc": "IGNITION 3 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь зажигания 3 работает медленно"
+  },
+  {
+    "code": "B0842",
+    "eng_desc": "IGNITION 3 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь зажигания 3 имеет низкий уровень"
+  },
+  {
+    "code": "B0843",
+    "eng_desc": "IGNITION 3 CIRCUIT HIGH",
+    "rus_desc": "Цепь зажигания 3 имеет высокий уровень"
+  },
+  {
+    "code": "B0845",
+    "eng_desc": "INPUT DEVICE 5 VOLT REF CIRCUIT MALFUNCTION",
+    "rus_desc": "5-и вольтовый блок питания неисправен"
+  },
+  {
+    "code": "B0846",
+    "eng_desc": "DEVICE 5 VOLT REF CIRCUIT RANGE/PERF",
+    "rus_desc": "Сигнал 5-и вольтового блока питания выходит из допустимого диапазона"
+  },
+  {
+    "code": "B0847",
+    "eng_desc": "DEVICE 5 VOLT REF CIRCUIT LOW INPUT",
+    "rus_desc": "Сигнал 5-и вольтового блока питания всегда низкого уровня"
+  },
+  {
+    "code": "B0848",
+    "eng_desc": "DEVICE 5 VOLT REF CIRCUIT HIGH INPUT",
+    "rus_desc": "Сигнал 5-и вольтового блока питания всегда высокого уровня"
+  },
+  {
+    "code": "B0850",
+    "eng_desc": "(CLEAN)BATTERY CIRCUIT MALFUNCTION",
+    "rus_desc": "(Чистая) Цепь аккумуляторной батареи неисправна"
+  },
+  {
+    "code": "B0851",
+    "eng_desc": "(CLEAN)BATTERY CIRCUIT RANGE/PERF",
+    "rus_desc": "(Чистая) Цепь аккумуляторной батареи работает плохо"
+  },
+  {
+    "code": "B0852",
+    "eng_desc": "(CLEAN)BATTERY CIRCUIT LOW INPUT",
+    "rus_desc": "(Чистая) Цепь аккумуляторной батареи имеет низкий уровень"
+  },
+  {
+    "code": "B0853",
+    "eng_desc": "(CLEAN)BATTERY CIRCUIT HIGH INPUT",
+    "rus_desc": "(Чистая) Цепь аккумуляторной батареи имеет высокий уровень"
+  },
+  {
+    "code": "B0855",
+    "eng_desc": "(DIRTY)BATTERY CIRCUIT MALFUNCTION",
+    "rus_desc": "(Грязная) Цепь аккумуляторной батареи неисправна"
+  },
+  {
+    "code": "B0856",
+    "eng_desc": "(DIRTY)BATTERY CIRCUIT RANGE/PERF",
+    "rus_desc": "(Грязная) Цепь аккумуляторной батареи работает плохо"
+  },
+  {
+    "code": "B0857",
+    "eng_desc": "(DIRTY)BATTERY CIRCUIT LOW INPUT",
+    "rus_desc": "(Грязная) Цепь аккумуляторной батареи имеет низкий уровень"
+  },
+  {
+    "code": "B0858",
+    "eng_desc": "(DIRTY)BATTERY CIRCUIT HIGH INPUT",
+    "rus_desc": "(Грязная) Цепь аккумуляторной батареи имеет высокий уровень"
+  },
+  {
+    "code": "B0860",
+    "eng_desc": "SYSTEM VOLTAGE HIGH",
+    "rus_desc": "Высокое напряжение питания системы"
+  },
+  {
+    "code": "B0856",
+    "eng_desc": "SYSTEM VOLTAGE LOW",
+    "rus_desc": "Низкое напряжение питания системы"
+  },
+  {
+    "code": "C0200",
+    "eng_desc": "RF WHEEL SPD SENS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости правого переднего колеса неисправна"
+  },
+  {
+    "code": "C0201",
+    "eng_desc": "RF WHEEL SPD SENS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика правого переднего колеса работает плохо"
+  },
+  {
+    "code": "C0202",
+    "eng_desc": "RF WHEEL SPD SENS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика правого переднего колеса всегда в низком уровне"
+  },
+  {
+    "code": "C0203",
+    "eng_desc": "RF WHEEL SPD SENS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика правого переднего колеса всегда в высок. уровне"
+  },
+  {
+    "code": "C0205",
+    "eng_desc": "LF WHEEL SPD SENS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости левого переднего колеса неисправна"
+  },
+  {
+    "code": "C0206",
+    "eng_desc": "LF WHEEL SPD SENS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика левого переднего колеса работает плохо"
+  },
+  {
+    "code": "C0207",
+    "eng_desc": "LF WHEEL SPD SENS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика левого переднего колеса всегда в низком уровне"
+  },
+  {
+    "code": "C0208",
+    "eng_desc": "LF WHEEL SPD SENS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика левого переднего колеса всегда в высок. уровне"
+  },
+  {
+    "code": "C0210",
+    "eng_desc": "RR WHEEL SPD SENS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости правого заднего колеса неисправна"
+  },
+  {
+    "code": "C0211",
+    "eng_desc": "RR WHEEL SPD SENS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика правого заднего колеса работает плохо"
+  },
+  {
+    "code": "C0212",
+    "eng_desc": "RR WHEEL SPD SENS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика правого заднего колеса всегда в низком уровне"
+  },
+  {
+    "code": "C0213",
+    "eng_desc": "RR WHEEL SPD SENS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика правого заднего колеса всегда в высок. уровне"
+  },
+  {
+    "code": "C0215",
+    "eng_desc": "LR WHEEL SPD SENS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости левого заднего колеса неисправна"
+  },
+  {
+    "code": "C0216",
+    "eng_desc": "LR WHEEL SPD SENS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика левого заднего колеса работает плохо"
+  },
+  {
+    "code": "C0217",
+    "eng_desc": "LR WHEEL SPD SENS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика левого заднего колеса всегда в низком уровне"
+  },
+  {
+    "code": "C0218",
+    "eng_desc": "LR WHEEL SPD SENS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика левого заднего колеса всегда в высок. уровне"
+  },
+  {
+    "code": "C0220",
+    "eng_desc": "REAR WHEEL SPD SENS CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика скорости заднего колеса неисправна"
+  },
+  {
+    "code": "C0221",
+    "eng_desc": "REAR WHEEL SPD SENS CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика заднего колеса работает плохо"
+  },
+  {
+    "code": "C0222",
+    "eng_desc": "REAR WHEEL SPD SENS CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика заднего колеса всегда в низком уровне"
+  },
+  {
+    "code": "C0223",
+    "eng_desc": "REAR WHEEL SPD SENS CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика заднего колеса всегда в высок. уровне"
+  },
+  {
+    "code": "C0225",
+    "eng_desc": "WHEEL SPD SENS FREQUENCY ERROR",
+    "rus_desc": "Частота датчика скорости колеса ошибочна"
+  },
+  {
+    "code": "C0226",
+    "eng_desc": "RF ABS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав. пер. колеса неисправна"
+  },
+  {
+    "code": "C0227",
+    "eng_desc": "RF ABS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0228",
+    "eng_desc": "RF ABS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0229",
+    "eng_desc": "RF ABS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0231",
+    "eng_desc": "RF ABS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. пер. колеса неисправна"
+  },
+  {
+    "code": "C0232",
+    "eng_desc": "RF ABS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0233",
+    "eng_desc": "RF ABS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0234",
+    "eng_desc": "RF ABS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0236",
+    "eng_desc": "LF ABS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев. пер. колеса неисправна"
+  },
+  {
+    "code": "C0237",
+    "eng_desc": "LF ABS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0238",
+    "eng_desc": "LF ABS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0239",
+    "eng_desc": "LF ABS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0241",
+    "eng_desc": "LF ABS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС лев. пер. колеса неисправна"
+  },
+  {
+    "code": "C0242",
+    "eng_desc": "LF ABS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС лев. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0243",
+    "eng_desc": "LF ABS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС лев.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0244",
+    "eng_desc": "LF ABS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС лев.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0246",
+    "eng_desc": "RR ABS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0247",
+    "eng_desc": "RR ABS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0248",
+    "eng_desc": "RR ABS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0249",
+    "eng_desc": "RR ABS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС прав.зад.колеса в высок. уровне"
+  },
+  {
+    "code": "C0251",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0252",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0253",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0254",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.зад. колеса в высок. уровне"
+  },
+  {
+    "code": "C0256",
+    "eng_desc": "LR ABS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев. зад. колеса неисправна"
+  },
+  {
+    "code": "C0257",
+    "eng_desc": "LR ABS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0258",
+    "eng_desc": "LR ABS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0259",
+    "eng_desc": "LR ABS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 АБС лев.зад.колеса в высок. уровне"
+  },
+  {
+    "code": "C0261",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0262",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0263",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0264",
+    "eng_desc": "RR ABS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 АБС прав.зад. колеса в высок. уровне"
+  },
+  {
+    "code": "C0266",
+    "eng_desc": "PUMP MOTOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь двигателя насоса неисправна"
+  },
+  {
+    "code": "C0267",
+    "eng_desc": "PUMP MOTOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь двигателя насоса работает не правильно"
+  },
+  {
+    "code": "C0268",
+    "eng_desc": "PUMP MOTOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь двигателя насоса всегда в низком уровне"
+  },
+  {
+    "code": "C0269",
+    "eng_desc": "PUMP MOTOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь двигателя насоса"
+  },
+  {
+    "code": "C0271",
+    "eng_desc": "PUMP MOTOR RELAY CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь реле двигателя насоса неисправна"
+  },
+  {
+    "code": "C0272",
+    "eng_desc": "PUMP MOTOR RELAY CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь реле двигателя насоса работает не правильно"
+  },
+  {
+    "code": "C0273",
+    "eng_desc": "PUMP MOTOR RELAY CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь реле двигателя насоса всегда в низком уровне"
+  },
+  {
+    "code": "C0274",
+    "eng_desc": "PUMP MOTOR RELAY CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь реле двигателя насоса всегда высоком уровне"
+  },
+  {
+    "code": "C0276",
+    "eng_desc": "VALVE RELAY CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь реле клапана неисправна"
+  },
+  {
+    "code": "C0277",
+    "eng_desc": "VALVE RELAY CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь реле клапана работает не правильно"
+  },
+  {
+    "code": "C0278",
+    "eng_desc": "VALVE RELAY CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь реле клапана всегда в низком уровне"
+  },
+  {
+    "code": "C0279",
+    "eng_desc": "VALVE RELAY CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь реле клапана всегда высоком уровне"
+  },
+  {
+    "code": "C0300",
+    "eng_desc": "RF TCS SOUMTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав. пер. колеса неисправна"
+  },
+  {
+    "code": "C0301",
+    "eng_desc": "RF TCS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0302",
+    "eng_desc": "RF TCS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0303",
+    "eng_desc": "RF TCS SOUMTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0305",
+    "eng_desc": "RF TCS SOUMTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. пер. колеса неисправна"
+  },
+  {
+    "code": "C0306",
+    "eng_desc": "RF TCS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0307",
+    "eng_desc": "RF TCS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0308",
+    "eng_desc": "RF TCS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0310",
+    "eng_desc": "LF TCS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев. пер. колеса неисправна"
+  },
+  {
+    "code": "C0311",
+    "eng_desc": "LF TCS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0312",
+    "eng_desc": "LF TCS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0313",
+    "eng_desc": "LF TCS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0315",
+    "eng_desc": "LF TCS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» лев. пер. колеса неисправна"
+  },
+  {
+    "code": "C0316",
+    "eng_desc": "LF TCS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» лев. пер. колеса раб. медленно"
+  },
+  {
+    "code": "C0317",
+    "eng_desc": "LF TCS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» лев.пер.колеса в низком уровне"
+  },
+  {
+    "code": "C0318",
+    "eng_desc": "LF TCS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» лев.пер.колеса в высок. уровне"
+  },
+  {
+    "code": "C0320",
+    "eng_desc": "RR TCS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0321",
+    "eng_desc": "RR TCS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0322",
+    "eng_desc": "RR TCS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0323",
+    "eng_desc": "RR TCS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» прав.зад.колеса в высок. уровне"
+  },
+  {
+    "code": "C0325",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0326",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0327",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0328",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.зад. колеса в высок. уровне"
+  },
+  {
+    "code": "C0330",
+    "eng_desc": "LR TCS SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев. зад. колеса неисправна"
+  },
+  {
+    "code": "C0331",
+    "eng_desc": "LR TCS SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0332",
+    "eng_desc": "LR TCS SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0333",
+    "eng_desc": "LR TCS SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №1 «TCS» лев.зад.колеса в высок. уровне"
+  },
+  {
+    "code": "C0335",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. зад. колеса неисправна"
+  },
+  {
+    "code": "C0336",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав. зад. колеса раб. медленно"
+  },
+  {
+    "code": "C0337",
+    "eng_desc": "RR TCS SOL/MTR #2 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.зад.колеса в низком уровне"
+  },
+  {
+    "code": "C0338",
+    "eng_desc": "RR TCS SOUMTR #2 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь соленоида/прив. №2 «TCS» прав.зад. колеса в высок. уровне"
+  },
+  {
+    "code": "C0340",
+    "eng_desc": "ABS/TCS BRAKE SW. CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь переключения систем «ABS»/»TCS» неисправна"
+  },
+  {
+    "code": "C0341",
+    "eng_desc": "ABS/TCS BRAKE SW. CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь переключения систем «ABS»/»TCS» работает медленно"
+  },
+  {
+    "code": "C0342",
+    "eng_desc": "ABS/TCS BRAKE SW. CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь переключения систем «ABS»/»TCS» в низком уровне"
+  },
+  {
+    "code": "C0343",
+    "eng_desc": "ABS/TCS BRAKE SW. CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь переключения систем «ABS»/»TCS» в высоком уровне"
+  },
+  {
+    "code": "C0345",
+    "eng_desc": "LOW BRAKE FLUID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика низкого уровня тормозной жидкости неисправна"
+  },
+  {
+    "code": "C0346",
+    "eng_desc": "LOW BRAKE FLUID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика уровня тормозной жидкости работает не правильно"
+  },
+  {
+    "code": "C0347",
+    "eng_desc": "LOW BRAKE FLUID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика уровня тормозной жидкости в низком уровне"
+  },
+  {
+    "code": "C0348",
+    "eng_desc": "LOW BRAKE FLUID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика уровня тормозной жидкости в высоком уровне"
+  },
+  {
+    "code": "C0350",
+    "eng_desc": "REAR SOL/MTR #1 CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь заднего соленоида/привода №1 неисправна"
+  },
+  {
+    "code": "C0351",
+    "eng_desc": "REAR SOL/MTR #1 CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь заднего соленоида/привода №1 работает не правильно"
+  },
+  {
+    "code": "C0352",
+    "eng_desc": "REAR SOL/MTR #1 CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь заднего соленоида/привода №1 в низком уровне"
+  },
+  {
+    "code": "C0353",
+    "eng_desc": "REAR SOL/MTR #1 CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь заднего соленоида/привода №1 в высоком уровне"
+  },
+  {
+    "code": "C0355",
+    "eng_desc": "THROTTLE REDUCT MTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь мотора привода дросселя неисправна"
+  },
+  {
+    "code": "C0356",
+    "eng_desc": "THROTTLE REDUCT MTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь мотора привода дросселя работает не правильно"
+  },
+  {
+    "code": "C0357",
+    "eng_desc": "THROTTLE REDUCT MTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь мотора привода дросселя в низком уровне"
+  },
+  {
+    "code": "C0358",
+    "eng_desc": "THROTTLE REDUCT MTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь мотора привода дросселя в высоком уровне"
+  },
+  {
+    "code": "C0360",
+    "eng_desc": "SYSTEM PRESSURE CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь систем измерения давления неисправна"
+  },
+  {
+    "code": "C0361",
+    "eng_desc": "SYSTEM PRESSURE CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь систем измерения давления работает не правильно"
+  },
+  {
+    "code": "C0362",
+    "eng_desc": "SYSTEM PRESSURE CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь систем измерения давления в низком уровне"
+  },
+  {
+    "code": "C0363",
+    "eng_desc": "SYSTEM PRESSURE CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь систем измерения давления в высоком уровне"
+  },
+  {
+    "code": "C0365",
+    "eng_desc": "LATERAL ACCELEROMTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь измерителя бокового ускорения неисправна"
+  },
+  {
+    "code": "C0366",
+    "eng_desc": "LATERAL ACCELEROMTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь измерителя бокового ускорения работает не правильно"
+  },
+  {
+    "code": "C0367",
+    "eng_desc": "LATERAL ACCELEROMTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь измерителя бокового ускорения в низком уровне"
+  },
+  {
+    "code": "C0368",
+    "eng_desc": "LATERAL ACCELEROMTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь измерителя бокового ускорения в высоком уровне"
+  },
+  {
+    "code": "C0370",
+    "eng_desc": "YAW RATE CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь датчика курсовой устойчивости неисправна"
+  },
+  {
+    "code": "C0371",
+    "eng_desc": "YAW RATE CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь датчика курсовой устойчивости работает не правильно"
+  },
+  {
+    "code": "C0372",
+    "eng_desc": "YAW RATE CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь датчика курсовой устойчивости в низком уровне"
+  },
+  {
+    "code": "C0373",
+    "eng_desc": "YAW RATE CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь датчика курсовой устойчивости в высоком уровне"
+  },
+  {
+    "code": "C0500",
+    "eng_desc": "STEEPING SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь втягивающего соленоида (втягивающего реле) неисправна"
+  },
+  {
+    "code": "C0501",
+    "eng_desc": "STEEPING SOLENOID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь втягивающего соленоида работает не правильно"
+  },
+  {
+    "code": "C0502",
+    "eng_desc": "STEEPING SOLENOID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь втягивающего соленоида в низком уровне"
+  },
+  {
+    "code": "C0503",
+    "eng_desc": "STEEPING SOLENOID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь втягивающего соленоида в высоком уровне"
+  },
+  {
+    "code": "C0505",
+    "eng_desc": "STEEPING POSITION SENSOR MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0506",
+    "eng_desc": "STEEPING POSITION SENSOR RANGE/PERF",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0507",
+    "eng_desc": "STEEPING POSITION SENSOR LOW INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0508",
+    "eng_desc": "STEEPING POSITION SENSOR HIGH INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0510",
+    "eng_desc": "STEEPING CHANGE RATE SENSOR MALFUNCTION",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0511",
+    "eng_desc": "STEEPING CHANGE RATE SENSOR RANGE/PERF",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0512",
+    "eng_desc": "STEEPING CHANGE RATE SENSOR LOW INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0513",
+    "eng_desc": "STEEPING CHANGE RATE SENSOR HIGH INPUT",
+    "rus_desc": "Извините, перевода пока нет"
+  },
+  {
+    "code": "C0700",
+    "eng_desc": "LF SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого переднего соленоида неисправна"
+  },
+  {
+    "code": "C0701",
+    "eng_desc": "LF SOLENOID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого переднего соленоида работает не правильно"
+  },
+  {
+    "code": "C0702",
+    "eng_desc": "LF SOLENOID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого переднего соленоида в низком уровне"
+  },
+  {
+    "code": "C0703",
+    "eng_desc": "LF SOLENOID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого переднего соленоида в высоком уровне"
+  },
+  {
+    "code": "C0705",
+    "eng_desc": "RF SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого переднего соленоида неисправна"
+  },
+  {
+    "code": "C0706",
+    "eng_desc": "RF SOLENOID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого переднего соленоида работает не правильно"
+  },
+  {
+    "code": "C0707",
+    "eng_desc": "RF SOLENOID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого переднего соленоида в низком уровне"
+  },
+  {
+    "code": "C0708",
+    "eng_desc": "RF SOLENOID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого переднего соленоида в высоком уровне"
+  },
+  {
+    "code": "C0710",
+    "eng_desc": "LR SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого заднего соленоида неисправна"
+  },
+  {
+    "code": "C0711",
+    "eng_desc": "LR SOLENOID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого заднего соленоида работает не правильно"
+  },
+  {
+    "code": "C0712",
+    "eng_desc": "LR SOLENOID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого заднего соленоида в низком уровне"
+  },
+  {
+    "code": "C0713",
+    "eng_desc": "LR SOLENOID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого заднего соленоида в высоком уровне"
+  },
+  {
+    "code": "C0715",
+    "eng_desc": "RR SOLENOID CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого заднего соленоида неисправна"
+  },
+  {
+    "code": "C0716",
+    "eng_desc": "RR SOLENOID CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого заднего соленоида работает не правильно"
+  },
+  {
+    "code": "C0717",
+    "eng_desc": "RR SOLENOID CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого заднего соленоида в низком уровне"
+  },
+  {
+    "code": "C0718",
+    "eng_desc": "RR SOLENOID CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого заднего соленоида в высоком уровне"
+  },
+  {
+    "code": "C0720",
+    "eng_desc": "LF ACCELEROMTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого переднего акселерометра неисправна"
+  },
+  {
+    "code": "C0721",
+    "eng_desc": "LF ACCELEROMTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого переднего акселерометра работает не правильно"
+  },
+  {
+    "code": "C0722",
+    "eng_desc": "LF ACCELEROMTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого переднего акселерометра в низком уровне"
+  },
+  {
+    "code": "C0723",
+    "eng_desc": "LF ACCELEROMTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого переднего акселерометра в высоком уровне"
+  },
+  {
+    "code": "C0725",
+    "eng_desc": "RF ACCELEROMTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого переднего акселерометра неисправна"
+  },
+  {
+    "code": "C0726",
+    "eng_desc": "RF ACCELEROMTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого переднего акселерометра работает не правильно"
+  },
+  {
+    "code": "C0727",
+    "eng_desc": "RF ACCELEROMTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого переднего акселерометра в низком уровне"
+  },
+  {
+    "code": "C0728",
+    "eng_desc": "RF ACCELEROMTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого переднего акселерометра в высоком уровне"
+  },
+  {
+    "code": "C0730",
+    "eng_desc": "LR ACCELEROMTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого заднего акселерометра неисправна"
+  },
+  {
+    "code": "C0731",
+    "eng_desc": "LR ACCELEROMTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого заднего акселерометра работает не правильно"
+  },
+  {
+    "code": "C0732",
+    "eng_desc": "LR ACCELEROMTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого заднего акселерометра в низком уровне"
+  },
+  {
+    "code": "C0733",
+    "eng_desc": "LR ACCELEROMTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого заднего акселерометра в высоком уровне"
+  },
+  {
+    "code": "C0735",
+    "eng_desc": "RR ACCELEROMTR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого заднего акселерометра неисправна"
+  },
+  {
+    "code": "C0736",
+    "eng_desc": "RR ACCELEROMTR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого заднего акселерометра работает не правильно"
+  },
+  {
+    "code": "C0737",
+    "eng_desc": "RR ACCELEROMTR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого заднего акселерометра в низком уровне"
+  },
+  {
+    "code": "C0738",
+    "eng_desc": "RR ACCELEROMTR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого заднего акселерометра в высоком уровне"
+  },
+  {
+    "code": "C0740",
+    "eng_desc": "LF POSITION SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого переднего датчика положения неисправна"
+  },
+  {
+    "code": "C0741",
+    "eng_desc": "LF POSITION SENSOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого переднего датчика положения работает не правильно"
+  },
+  {
+    "code": "C0742",
+    "eng_desc": "LF POSITION SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого переднего датчика положения в низком уровне"
+  },
+  {
+    "code": "C0743",
+    "eng_desc": "LF POSITION SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого переднего датчика положения в высоком уровне"
+  },
+  {
+    "code": "C0745",
+    "eng_desc": "RF POSITION SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого переднего датчика положения неисправна"
+  },
+  {
+    "code": "C0746",
+    "eng_desc": "RF POSITION SENSOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого переднего датчика положения работает не правильно"
+  },
+  {
+    "code": "C0747",
+    "eng_desc": "RF POSITION SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого переднего датчика положения в низком уровне"
+  },
+  {
+    "code": "C0748",
+    "eng_desc": "RF POSITION SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого переднего датчика положения в высоком уровне"
+  },
+  {
+    "code": "C0750",
+    "eng_desc": "LR POSITION SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь левого заднего датчика положения неисправна"
+  },
+  {
+    "code": "C0751",
+    "eng_desc": "LR POSITION SENSOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь левого заднего датчика положения работает не правильно"
+  },
+  {
+    "code": "C0752",
+    "eng_desc": "LR POSITION SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь левого заднего датчика положения в низком уровне"
+  },
+  {
+    "code": "C0753",
+    "eng_desc": "LR POSITION SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь левого заднего датчика положения в высоком уровне"
+  },
+  {
+    "code": "C0755",
+    "eng_desc": "RR POSITION SENSOR CIRCUIT MALFUNCTION",
+    "rus_desc": "Цепь правого заднего датчика положения неисправна"
+  },
+  {
+    "code": "C0756",
+    "eng_desc": "RR POSITION SENSOR CIRCUIT RANGE/PERF",
+    "rus_desc": "Цепь правого заднего датчика положения работает не правильно"
+  },
+  {
+    "code": "C0757",
+    "eng_desc": "RR POSITION SENSOR CIRCUIT LOW INPUT",
+    "rus_desc": "Цепь правого заднего датчика положения в низком уровне"
+  },
+  {
+    "code": "C0758",
+    "eng_desc": "RR POSITION SENSOR CIRCUIT HIGH INPUT",
+    "rus_desc": "Цепь правого заднего датчика положения в высоком уровне"
+  }
+]
